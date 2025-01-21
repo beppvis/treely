@@ -1,0 +1,17 @@
+body{
+  font-family:timesnewroman;  
+}
+
+
+.homeBar{
+  background-color:#2d9f8f;
+}
+
+.treeDisplayBar table{
+  align:center;
+}
+
+.treeDisplay img{
+    max-width:100%;
+    height: auto;
+}
