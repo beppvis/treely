@@ -3,12 +3,15 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size:50px;
+    color:#FFF5F5;
     background-image:url("../../assets/indexTreeBackground.png");
     background-repeat: no-repeat;
     background-size: cover;
-    color:#FFF5F5;
-}
-
+    background-position:scroll;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+ }
 
 .stylishItalic{
     font-family: "Nothing You Could Do", cursive;
@@ -34,10 +37,8 @@ h2{
 
 .mainButton{
     border:none;
-    width:20%;
-    padding:16px 30px;
+    padding: 0px 100px;
     background-color:#AAD2AA;
-    opacity:0.6;
     text-align:center;
     display:inline-block;
     border-radius:15px;
@@ -48,6 +49,45 @@ h2{
     color:#FFF5F5;
 }
 
+.mainSlidePanel{
+    align:center;
+    display:none;
+    flex-direction:column;
+    flex-wrap:nowrap;
+    justify-content:center;
+    align-items:center;
+    background-color:#EBEBEB;
+    border-radius:10px;
+    color:black;
+    width:50%;
+    height:50%;
+    bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:15%;
+    position:relative;
+}
+h6{
+    margin-top:3%;
+    text-indent:20px;
+    width:80%;
+    margin-bottom:2%;
+}
+.mainParagraph{
+    text-indent:10px;
+    font-size:20px;
+    width:80%;
+    margin-right:auto;
+    margin-left:auto;
+}
 
+@keyframes magicAppear{
+    0% {opacity:0.1;}
+    20% {opacity:0.2;}
+    40% {opacity:0.4;}
+    60% {opacity:0.6;}
+    80% {opacity:0.8;}
+    90% {opacity:1.0;}
+}
 
 
