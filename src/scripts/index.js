@@ -25,9 +25,6 @@ function scrollDown() {
     mainPanel.style.display = 'none';
     mainSlidePanel.style.display = 'flex';
     mainSlidePanel.style.animation = "magicAppear 0.3s ease-out";
-
-
-
-
-
 }
+
+
