@@ -164,6 +164,60 @@
   font-size: 75px;
 }
 
+#carosel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.displayBar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 630px;
+  border: 11px solid #213721;
+  border-radius: 11px;
+  background-color: #FCFBDD;
+  padding: 5px 5px 15px 5px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  column-gap: 2px;
+  gap: 21px;
+}
+
+.displayBar h2 {
+  font-size: 40px;
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar center {
+  font-size: 15px;
+  width: 283px;
+  height: 154px;
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons {
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons button {
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-bottom: 0px;
+  width: 105px;
+  height: 45px;
+  background-color: #BBD28A;
+  border-radius: 4px;
+}
+
 body {
   margin: 0;
   padding: 0;
