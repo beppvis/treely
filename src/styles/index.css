@@ -164,7 +164,7 @@
   font-size: 75px;
 }
 
-#carosel {
+#treeBar {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -218,6 +218,38 @@
   border-radius: 4px;
 }
 
+.carousel {}
+
+.carousel .carouselItem {
+  display: none;
+  flex-direction: row;
+
+}
+
+.carousel .visibleCarouselItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+}
+
+.carousel .carouselImage {
+  transform: rotate(20deg);
+  border: 10px solid #BBD28A;
+  border-radius: 67px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 body {
   margin: 0;
   padding: 0;
@@ -257,8 +289,6 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-
-
 }
 
 .footer-section {
