@@ -1,0 +1,378 @@
+.homeBar {
+  color: #FBFEF7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #213721;
+  background-size: contain;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  font-family: "Modern Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButtons {
+  display: flex;
+  gap: 21px;
+  font-style: bold;
+}
+
+.pageButton {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #118B50;
+  color: #FBFEF7;
+  border: none;
+  border-radius: 9px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.profileButton {
+  background-color: #118B50;
+  margin-right: 20px;
+  border-radius: 30px;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.logoBottom {
+  font-size: 10px;
+
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.firstPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #213721;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.firstPanel img {
+  margin-right: 40px;
+
+}
+
+.firstText {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  color: #F1FCDC;
+  margin-left: 50px;
+}
+
+.firstText b {
+  color: #FBFEF7;
+}
+
+.aboutUsPanel {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  color: #FBFEF7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/ourpeople.png");
+  overflow: visible;
+  width: 100%;
+  margin-top: 0px;
+  background-size: cover;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.aboutUsPanel h2 {
+  font-size: 75px;
+}
+
+.aboutUsPanel p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.aboutUsPanel button {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
+  background-color: #FBFEF7;
+  border: none;
+  border-radius: 9px;
+  width: 247px;
+  height: 84px;
+  margin-left: 61px;
+  margin-right: 61px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.aboutUsPanel h2 {
+  font-size: 75px;
+}
+
+.aboutUsPanel p {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.vision {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.vision h2 {
+
+  font-size: 75px;
+}
+
+#treeBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+.displayBar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 630px;
+  border: 11px solid #213721;
+  border-radius: 11px;
+  background-color: #FCFBDD;
+  padding: 5px 5px 15px 5px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  column-gap: 2px;
+  gap: 21px;
+}
+
+.displayBar h2 {
+  font-size: 40px;
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar center {
+  font-size: 15px;
+  width: 283px;
+  height: 154px;
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons {
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons button {
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-bottom: 0px;
+  width: 105px;
+  height: 45px;
+  background-color: #BBD28A;
+  border-radius: 4px;
+}
+
+.carousel {}
+
+.carousel .carouselItem {
+  display: none;
+  flex-direction: row;
+
+}
+
+.carousel .visibleCarouselItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: baseline;
+}
+
+
+@keyframes switchOut {
+  0% {
+    margin-top: 144px;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+
+  100% {
+    margin-top: 144px;
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+
+
+
+}
+
+@keyframes switchIn {
+  0% {
+    margin-top: 144px;
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+
+  100% {
+    margin-top: 144px;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+
+}
+
+
+.carousel .carouselImage {
+  transform: rotate(20deg);
+  border: 10px solid #BBD28A;
+  border-radius: 67px;
+  z-index: -1;
+  margin-top: 144px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FBFEF7;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
+  align-content: space-evenly;
+}
+
+.footer-container h2 {
+  font-family: "Modern Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+}
+
+.footer-container p {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-section h3 {
+  border-bottom: 2px solid teal;
+  padding-bottom: 5px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 8px 0;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #00bfa5;
+}
+
+.social-icons i {
+  margin: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.newsletter input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.newsletter button {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
