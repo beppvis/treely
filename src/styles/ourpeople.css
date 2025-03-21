@@ -57,238 +57,28 @@
   font-size: 10px;
 
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
-.firstPanel {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  background-color: #213721;
-  justify-content: space-between;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  margin-bottom: 0px;
+img {
+margin-top: 10%;
+align-self: center;
 }
 
-.firstPanel img {
-  margin-right: 40px;
-
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-.firstText {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 96px;
-  color: #F1FCDC;
-  margin-left: 50px;
-}
-
-.firstText b {
-  color: #FBFEF7;
-}
-
-.aboutUsPanel {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
-  color: #FBFEF7;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image: url("../../assets/ourpeople.png");
-  overflow: visible;
-  width: 100%;
-  margin-top: 0px;
-  background-size: cover;
-  justify-content: space-between;
-  padding-bottom: 20px;
-}
-
-.aboutUsPanel h2 {
-  font-size: 75px;
-}
-
-.aboutUsPanel p {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.aboutUsPanel button {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 30px;
-  color: black;
-  background-color: #FBFEF7;
-  border: none;
-  border-radius: 9px;
-  width: 247px;
-  height: 84px;
-  margin-left: 61px;
-  margin-right: 61px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-
-.aboutUsPanel h2 {
-  font-size: 75px;
-}
-
-.aboutUsPanel p {
-  margin-left: 30%;
-  margin-right: 30%;
-}
-
-.vision {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.vision h2 {
-
-  font-size: 75px;
-}
-
-#treeBar {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 34px;
-}
-
-.displayBar {
-  display: flex;
-  flex-direction: column;
-  width: 400px;
-  height: 630px;
-  border: 11px solid #213721;
-  border-radius: 11px;
-  background-color: #FCFBDD;
-  padding: 5px 5px 15px 5px;
-  align-items: center;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 24px;
-  column-gap: 2px;
-  gap: 21px;
-}
-
-.displayBar h2 {
-  font-size: 40px;
-  margin: 0px 0px 0px 0px;
-}
-
-.displayBar center {
-  font-size: 15px;
-  width: 283px;
-  height: 154px;
-  margin: 0px 0px 0px 0px;
-}
-
-.displayBar .displayButtons {
-  margin: 0px 0px 0px 0px;
-}
-
-.displayBar .displayButtons button {
-  margin-right: 21px;
-  margin-left: 21px;
-  margin-bottom: 0px;
-  width: 105px;
-  height: 45px;
-  background-color: #BBD28A;
-  border-radius: 4px;
-}
-
-.carousel {}
-
-.carousel .carouselItem {
-  display: none;
-  flex-direction: row;
-
-}
-
-.carousel .visibleCarouselItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: baseline;
-}
-
-
-@keyframes switchOut {
-  0% {
-    margin-top: 144px;
-    transform: rotate(0deg);
-    z-index: 0;
-  }
-
-  100% {
-    margin-top: 144px;
-    transform: rotate(20deg);
-    z-index: -1;
-  }
-
-
-
-}
-
-@keyframes switchIn {
-  0% {
-    margin-top: 144px;
-    transform: rotate(20deg);
-    z-index: -1;
-  }
-
-  100% {
-    margin-top: 144px;
-    transform: rotate(0deg);
-    z-index: 0;
-  }
-
-}
-
-
-.carousel .carouselImage {
-  transform: rotate(20deg);
-  border: 10px solid #BBD28A;
-  border-radius: 67px;
-  z-index: -1;
-  margin-top: 144px;
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-
 body {
   margin: 0;
   padding: 0;
