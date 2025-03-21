@@ -123,7 +123,7 @@
         </div>
         <div class="carouselItem ">
             <div class="visibleCarouselItem" onmouseover="switchToMe(this)">
-                Meet Our Team
+                Our People
             </div>
             <div class="carouselItem" onmouseover="switchToMe(this)">
                 How we Work
