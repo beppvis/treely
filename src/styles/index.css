@@ -26,7 +26,8 @@
 
 .homeButtons {
   display: flex;
-  align-content: space-between;
+  gap: 21px;
+  font-style: bold;
 }
 
 .pageButton {
@@ -39,8 +40,6 @@
   border: none;
   border-radius: 9px;
   height: 60px;
-  margin-left: 61px;
-  margin-right: 61px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -63,9 +62,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-
   background-color: #213721;
-  background-size: contain;
   justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -233,10 +230,46 @@
   justify-content: baseline;
 }
 
+
+@keyframes switchOut {
+  0% {
+    margin-top: 144px;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+
+  100% {
+    margin-top: 144px;
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+
+
+
+}
+
+@keyframes switchIn {
+  0% {
+    margin-top: 144px;
+    transform: rotate(20deg);
+    z-index: -1;
+  }
+
+  100% {
+    margin-top: 144px;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+
+}
+
+
 .carousel .carouselImage {
   transform: rotate(20deg);
   border: 10px solid #BBD28A;
   border-radius: 67px;
+  z-index: -1;
+  margin-top: 144px;
 }
 
 @keyframes fadeIn {
