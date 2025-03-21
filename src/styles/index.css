@@ -215,20 +215,27 @@
   border-radius: 4px;
 }
 
-.carousel {}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .carousel .carouselItem {
-  display: none;
-  flex-direction: row;
-
-}
-
-.carousel .visibleCarouselItem {
+  margin-right: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: bold;
+  font-size: 75px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: baseline;
+  flex-direction: column;
+  align-items: first baseline;
+
 }
+
+
+.carousel .visibleCarouselItem {}
 
 
 @keyframes switchOut {
@@ -243,8 +250,6 @@
     transform: rotate(20deg);
     z-index: -1;
   }
-
-
 
 }
 
@@ -264,13 +269,26 @@
 }
 
 
-.carousel .carouselImage {
-  transform: rotate(20deg);
+.carouselImages {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel .carouselImages img {
+  transform: rotate(20deg) translateY(-300px);
+  border: 10px solid #BBD28A;
+  border-radius: 67px;
+  z-index: -2;
+}
+
+.carousel .carouselImages .visibleCarouselImage {
+  transform: rotate(0deg);
   border: 10px solid #BBD28A;
   border-radius: 67px;
   z-index: -1;
   margin-top: 144px;
 }
+
 
 @keyframes fadeIn {
   0% {
