@@ -15,11 +15,33 @@ function onLoad() {
 
 
 function switchToMe(item) {
-    let parent = item.parentNode;
-    let parentClassName = item.parentNode.className;
-    if (!parentClassName.includes("visibleCarouselItem ")) {
-        this.style = "animation:switchIn 0.5s;";
-        console.log(parent.style)
+
+    if (!item.className.includes("visibleCarouselItem")) {
+        const image_id = item.id + "Image"
+        let image = document.getElementById(image_id)
+        var images = document.getElementsByClassName("carouselImage")
+        for (var img_ind in images) {
+            var img = images.item(img_ind);
+            if (img.id != image_id) {
+                var next_image_src = String(img.src)
+                img.src = image.src
+                image.src = next_image_src
+                var img_id = img.id
+                img.id = image_id
+                image.id = img_id
+
+            }
+        }
+        var divs = document.getElementById("carouselItem").children;
+        for (const div_id in divs) {
+            var div = divs.item(div_id)
+            if (div.id != item.id) {
+                console.log(div)
+                div.classList.remove("visibleCarouselItem")
+            }
+        }
+        item.classList.add("visibleCarouselItem")
+
     }
 
 }
