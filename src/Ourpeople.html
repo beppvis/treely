@@ -11,11 +11,24 @@
     <link href="styles/ourpeople.css" rel="stylesheet">
     <script src="scripts/index.js"></script>
 </head>
+<script>
+    function switchTab(selectedTab) {
+    // Remove active class from all tabs
+    document.querySelectorAll('.tab').forEach(tab => {
+        tab.classList.remove('active-tab');
+    });
 
+    // Add active class to the clicked tab
+    selectedTab.classList.add('active-tab');
+}
+
+</script>
 <body onload="onLoad()">
     <div class="homeBar">
-        <div class="logo">Treely<div class="logoBottom">Plant a Billion Trees</div>
+        <div class="logo">Treely
+            <div class="logoBottom">Plant a Billion Trees</div>
         </div>
+        
         <div class="homeButtons">
             <button class="pageButton">Our Work</button>
             <button class="pageButton">Our People</button>
@@ -24,12 +37,48 @@
             <button class="profileButton">P</button>
         </div>
     </div>
-    <div align="center" >
+    
+    <!-- "Our People" text moved below Treely logo -->
+    <div class="centered">
+        <div class="firstText">
+            <b>Our People</b>
+        </div>
+    </div>
+    
+    <div align="center">
         <img src="../assets/Ourpeoplesat.png" width="1529" height="907">
-        <div class="centered"> <h1>Our People</h1></div>
+    </div>
+    
+</div>
+<div align="center">
+<div class="tab-container" align="center">
+    <div class="tab active-tab" onclick="switchTab(this)">Our Board Members</div>
+    <div class="tab" onclick="switchTab(this)">Our Partners</div>
+</div>
+</div>
+
+
+<div id="treeBar">
+    <div class="displayBar">
+        <img id="tree1" src="../assets/BIG.jpg" style="display:block;border-radius:33px" width="354px"
+            height="324px">
+        <h2>Oak Tree</h2>
+        <center>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.
+            Sed condimentum eleifend dolor eu semper. Fusce accumsan dolor nec enim lobortis faucibus.
+            Pellentesque congue
+        </center>
+        <div class="displayButtons">
+            <button>Cart</button>
+            <button>Plant</button>
+        </div>
+
     </div>
 
     <div class="aboutUsPanel">
    
         <button>Learn More</button>
     </div>
+
+
+   

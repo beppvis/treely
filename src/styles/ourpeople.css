@@ -1,3 +1,6 @@
+
+
+
 .homeBar {
   color: #FBFEF7;
   display: flex;
@@ -11,7 +14,82 @@
   padding-bottom: 10px;
   width: 100%;
   position: fixed;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; 
 }
+
+
+.tab-container {
+  display: flex;
+  gap: 30px; /* Increase gap between tabs */
+  font-size: 28px; /* Increase text size */
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; /* Adjust spacing */
+}
+
+.tab {
+  padding: 15px 30px; /* Increase padding to make buttons larger */
+  border-radius: 25px; /* Increase border radius for a smoother shape */
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.active-tab {
+  background-color: #4f8b5a;
+  color: black;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+
+#treeBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+
+.displayBar {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 630px;
+  border: 11px solid #213721;
+  border-radius: 11px;
+  background-color: #FCFBDD;
+  padding: 5px 5px 15px 5px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  column-gap: 2px;
+  gap: 21px;
+}
+
+.displayBar .displayButtons {
+  margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons button {
+  margin-right: 21px;
+  margin-left: 21px;
+  margin-bottom: 0px;
+  width: 105px;
+  height: 45px;
+  background-color: #BBD28A;
+  border-radius: 4px;
+}
+
+
 
 .logo {
   font-family: "Modern Antiqua", serif;
@@ -43,7 +121,34 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+.firstText {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25%;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: #F1FCDC;
+  margin-left: 50px;
+}
 
+.firstText b {
+  color: #FBFEF7;
+}
+
+.firstTextwork {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 15%;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+  color: #F1FCDC;
+  margin-left: 50px;
+}
+.firstTextwork b {
+  color: #FBFEF7;
+}
 .profileButton {
   background-color: #118B50;
   margin-right: 20px;
