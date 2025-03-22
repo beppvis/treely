@@ -259,40 +259,6 @@
 
 }
 
-
-
-
-@keyframes switchOut {
-  0% {
-    margin-top: 144px;
-    transform: rotate(0deg);
-    z-index: 0;
-  }
-
-  100% {
-    margin-top: 144px;
-    transform: rotate(20deg)translateY(-300px);
-    z-index: -1;
-  }
-
-}
-
-@keyframes switchIn {
-  0% {
-    margin-top: 144px;
-    transform: rotate(20deg);
-    z-index: -1;
-  }
-
-  100% {
-    margin-top: 144px;
-    transform: rotate(0deg);
-    z-index: 0;
-  }
-
-}
-
-
 .carouselImages {
   display: flex;
   flex-direction: column;
@@ -313,16 +279,105 @@
   margin-top: 144px;
 }
 
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
+.donateToOrg {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  background-color: #213721;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: black;
 }
+
+.donateTagline {
+  margin-left: 89px;
+}
+
+.donateToOrg h1 {
+  font-style: regular;
+  font-weight: 400;
+  font-size: 85px;
+  color: #FBFEF7;
+}
+
+.donateToOrg h1 font {
+  font-family: "Modern Antiqua", serif;
+  font-weight: 800;
+  font-style: regular;
+  font-size: 85px;
+
+}
+
+
+.donateToOrg h2 {
+  color: #BECD9D;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+
+.donationForm {
+  border-radius: 5px;
+  background-color: #FCFBDD;
+  width: 329px;
+  height: 300px;
+  margin-right: 89px;
+  gap: 21px;
+}
+
+.donationForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.donationForm #amount {
+  border-radius: 15px;
+  width: 292px;
+  height: 44px;
+  border: 1px solid black;
+  appearance: none;
+  background-color: #FCFBDD;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.donationForm #terms {
+  font-size: 12px;
+}
+
+
+.donationForm .donationButtons {
+  display: flex;
+  gap: 21px;
+  font-size: 15px;
+}
+
+.donationForm .donationButtons button {
+  width: 134px;
+  height: 44px;
+  background-color: #FCFBDD;
+  border: 1px solid black;
+  border-radius: 42px;
+}
+
+.donationForm button {
+  background-color: #BECD9D;
+  border: 1px solid black;
+  width: 106px;
+  height: 44px;
+  border-radius: 15px;
+}
+
 
 
 body {
