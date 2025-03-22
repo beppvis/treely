@@ -221,7 +221,7 @@
   justify-content: space-between;
 }
 
-.carousel .carouselItem {
+#carouselItem {
   margin-right: 100px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -235,7 +235,31 @@
 }
 
 
-.carousel .visibleCarouselItem {}
+#carouselItem .visibleCarouselItem p:hover::after {
+  content: "";
+  height: 22px;
+  background-color: #BECD9D;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  float: left;
+  animation: increaseWidth 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes increaseWidth {
+
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 100%;
+  }
+
+}
+
+
 
 
 @keyframes switchOut {
@@ -247,7 +271,7 @@
 
   100% {
     margin-top: 144px;
-    transform: rotate(20deg);
+    transform: rotate(20deg)translateY(-300px);
     z-index: -1;
   }
 
