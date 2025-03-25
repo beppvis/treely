@@ -22,12 +22,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-decoration: none;
-}
-
-.logo a {
-  all: unset;
-  cursor: pointer;
 }
 
 .homeButtons {

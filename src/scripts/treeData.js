@@ -26,7 +26,3 @@ function drawTrees(slider) {
     }
 
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 5b38486 (rebasing with main)
