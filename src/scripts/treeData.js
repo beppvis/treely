@@ -26,3 +26,7 @@ function drawTrees(slider) {
     }
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a086c86 (Final message)
