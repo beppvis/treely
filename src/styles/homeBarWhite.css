@@ -1,0 +1,65 @@
+.homeBar {
+  background-color: #FBFEF7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #213721;
+  background-size: contain;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.logo {
+  font-family: "Modern Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeButtons {
+  display: flex;
+  gap: 21px;
+  font-style: bold;
+}
+
+.pageButton {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #118B50;
+  color: #213721;
+  border: none;
+  border-radius: 9px;
+  height: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.profileButton {
+  color: #213721;
+  margin-right: 20px;
+  border-radius: 30px;
+  border: none;
+  width: 60px;
+  height: 60px;
+}
+
+.logoBottom {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FBFEF7;
+}
