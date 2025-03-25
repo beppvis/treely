@@ -1,0 +1,23 @@
+{
+  "name": "treely",
+  "version": "1.0.0",
+  "description": "A website for helping the planet by planting trees",
+  "keywords": [
+    "treely"
+  ],
+  "homepage": "https://github.com/beppvis/treely#readme",
+  "bugs": {
+    "url": "https://github.com/beppvis/treely/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beppvis/treely.git"
+  },
+  "license": "ISC",
+  "author": "beppvis,Dante,PKB",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
