@@ -1,5 +1,6 @@
 .homeBar {
-  background-color: #FBFEF7;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
   display: flex;
   flex-direction: row;
   align-items: center;
