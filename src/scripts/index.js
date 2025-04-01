@@ -25,7 +25,7 @@ function onLoad() {
             </div>
         `
     var treeBar = document.getElementById("treeBar");
-    for (let i = 0; i < 10; i++) {
+    for (let i = 0; i < 3; i++) {
         var treeDisplayBar = document.createElement("div");
         treeDisplayBar.className = "displayBar";
         treeDisplayBar.innerHTML = treeBarComponents;
