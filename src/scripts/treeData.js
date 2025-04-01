@@ -26,4 +26,3 @@ function drawTrees(slider) {
     }
 
 }
-
