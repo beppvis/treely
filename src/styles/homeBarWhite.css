@@ -1,6 +1,5 @@
 .homeBar {
-  background-color: transparent;
-  backdrop-filter: blur(20px);
+  background-color: #FBFEF7;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,6 +23,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.logo a {
+  all: unset;
+  cursor: pointer;
 }
 
 .homeButtons {
@@ -44,6 +49,7 @@
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .profileButton {

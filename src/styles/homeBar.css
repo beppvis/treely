@@ -22,6 +22,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
+}
+
+.logo a {
+  all: unset;
+  cursor: pointer;
 }
 
 .homeButtons {
@@ -42,6 +48,7 @@
   height: 60px;
   padding-left: 20px;
   padding-right: 20px;
+  cursor: pointer;
 }
 
 .profileButton {

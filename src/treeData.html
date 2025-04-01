@@ -17,7 +17,8 @@
 <body>
     <img id="forrestTreeImage" src="../assets/forrestTree.png" style="display: none;">
     <div class="homeBar">
-        <div class="logo">Treely<div class="logoBottom">Plant a Billion Trees</div>
+        <div class="logo"><a href="index.html">Treely</a>
+            <div class="logoBottom">Plant a Billion Trees</div>
         </div>
         <div class="homeButtons">
             <button class="pageButton">Our Work</button>
@@ -48,10 +49,11 @@
         <div class="plantMenu">
             <h3> Select the no of trees to be planted</h3>
             <div class="slider">
-                <input type="range" min="0" max="12" onchange="drawTrees(this)">
+                <input type="range" value="0" min="0" max="12" onchange="drawTrees(this)">
                 <div>
                     <img src="../assets/counterPlant.png" width="165" height="165">
-                    <p style="transform: translateY(-80px)translateX(75px);" id="treeCount">
+                    <p style="transform: translateY(-80px)translateX(73px);" id="treeCount">
+                        0
                     </p>
                 </div>
             </div>
