@@ -1,0 +1,72 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.firstPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #213721;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  height: 100%;
+}
+
+
+.SignInForm {
+  border-radius: 5px;
+  background-color: #FCFBDD;
+  width: 519px;
+  margin-right: 89px;
+  gap: 21px;
+}
+
+.SignInForm h2 {
+  font-size: 24px;
+  font-weight: 390;
+}
+
+.SignInForm .in {
+  width: 292px;
+  height: 44px;
+  border-radius: 15px;
+  border: 1px solid black;
+  background: transparent;
+}
+
+.SignInForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  align-items: center;
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+.SignInForm button {
+  background-color: #BECD9D;
+  border: 1px solid black;
+  width: 106px;
+  height: 44px;
+  border-radius: 15px;
+}
+
+.SignInForm button:focus {
+  background-color: #213721;
+}
+
+.SignInForm #terms {
+  font-size: 12px;
+}
+
+.SignInForm #terms #signIN {
+  margin-left: 30px;
+  width: 106px;
+  height: 44px;
+}
