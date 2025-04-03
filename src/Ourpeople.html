@@ -9,19 +9,31 @@
         href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="styles/ourpeople.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+
     <script src="scripts/index.js"></script>
+    <style>
+        
+    </style>
 </head>
 <script>
-    function switchTab(selectedTab) {
-    // Remove active class from all tabs
-    document.querySelectorAll('.tab').forEach(tab => {
-        tab.classList.remove('active-tab');
-    });
+    function switchTab(selectedTab, section) {
+        // Remove active class from all tabs
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.classList.remove('active-tab');
+        });
 
-    // Add active class to the clicked tab
-    selectedTab.classList.add('active-tab');
-}
+        // Add active class to the clicked tab
+        selectedTab.classList.add('active-tab');
 
+        // Hide all sections
+        document.querySelectorAll('.content').forEach(content => {
+            content.classList.remove('active');
+        });
+
+        // Show the selected section
+        document.getElementById(section).classList.add('active');
+    }
 </script>
 <body onload="onLoad()">
     <div class="homeBar">
@@ -38,7 +50,6 @@
         </div>
     </div>
     
-    <!-- "Our People" text moved below Treely logo -->
     <div class="centered">
         <div class="firstText">
             <b>Our People</b>
@@ -49,36 +60,101 @@
         <img src="../assets/Ourpeoplesat.png" width="1529" height="907">
     </div>
     
-</div>
-<div align="center">
-<div class="tab-container" align="center">
-    <div class="tab active-tab" onclick="switchTab(this)">Our Board Members</div>
-    <div class="tab" onclick="switchTab(this)">Our Partners</div>
-</div>
-</div>
-
-
-<div id="treeBar">
-    <div class="displayBar">
-        <img id="tree1" src="../assets/BIG.jpg" style="display:block;border-radius:33px" width="354px"
-            height="324px">
-        <h2>Oak Tree</h2>
-        <center>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.
-            Sed condimentum eleifend dolor eu semper. Fusce accumsan dolor nec enim lobortis faucibus.
-            Pellentesque congue
-        </center>
-        <div class="displayButtons">
-            <button>Cart</button>
-            <button>Plant</button>
+    <div align="center">
+        <div class="tab-container" align="center">
+            <div class="tab active-tab" onclick="switchTab(this, 'board')">Our Board Members</div>
+            <div class="tab" onclick="switchTab(this, 'partners')">Our Partners</div>
         </div>
-
     </div>
 
     <div class="aboutUsPanel">
-   
-        <button>Learn More</button>
+        <div id="board" class="content active">
+            <div class="members">
+                <div class="card">
+                    <img src="../assets/image.png" alt="Dr- Parthiv Surya">
+                    <p>Dr- Parthiv Surya</p>
+                    <p>Scientist</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Dr- blab fndsbhxbkjra">
+                    <p>Dr- blab fndsbhxbkjra</p>
+                    <p>Scientist</p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="partners" class="content">
+            <div class="partners">
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 2">
+                    <p>Partner 2</p>
+                </div>
+            </div>
+        </div>
     </div>
+     <div class="newsletter">
+        <div>
+            <h2>
+                <center>
+                    Get in touch with our team
+                </center>
+            </h2>
+        </div>
+        <div class="sub">
+            <h2>
+                <center>
+                    Subscribe to our newsletter
+                </center>
+            </h2>
+            <input type="email" placeholder="  Email">
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section logo">
+            <h2>Treely</h2>
+            <p>Treely is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of
+                indian law.</p>
+            <p><strong>TAX ID #46-4664562</strong></p>
+        </div>
+        <div class="footer-section financials">
+            <h3>FINANCIALS</h3>
+            <ul>
+                <p>Our Financials</p>
+                <li><a href="#">2023: Form 990 | Audit Report</a></li>
+                <li><a href="#">2022: Form 990 | Audit Report</a></li>
+                <li><a href="#">2021: Form 990 | Audit Report</a></li>
+                <li><a href="#">2020: Form 990 | Audit Report</a></li>
+                <li><a href="#">2019: Form 990 | Audit Report</a></li>
+            </ul>
+        </div>
+        <div class="footer-section quick-links">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h3>CONNECT</h3>
+            <p><strong>Call:</strong> 9037407267 or 04872304989</p>
+            <p>Amrita Vishwa vidhyapeedam, coimbotore ettimadaii</p>
+        </div>
+    </div>
+</footer>
 
-
-   
+</html>
