@@ -10,7 +10,27 @@ var tress = new Array()
 
 
 function onLoad() {
-    const visibleCaroselItems = document.getElementsByClassName("visibleCarouselItem");
+    const treeBarComponents = ` 
+            <img id="tree1" src="../assets/BIG.jpg" style="display:block;border-radius:33px" width="354px"
+                height="324px">
+            <h2>Oak Tree</h2>
+            <center>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.
+                Sed condimentum eleifend dolor eu semper. Fusce accumsan dolor nec enim lobortis faucibus.
+                Pellentesque congue
+            </center>
+            <div class="displayButtons">
+                <button>Cart</button>
+                <button onclick="window.location.href='../src/treeData.html'">Plant</button>
+            </div>
+        `
+    var treeBar = document.getElementById("treeBar");
+    for (let i = 0; i < 10; i++) {
+        var treeDisplayBar = document.createElement("div");
+        treeDisplayBar.className = "displayBar";
+        treeDisplayBar.innerHTML = treeBarComponents;
+        treeBar.appendChild(treeDisplayBar);
+    }
 }
 
 

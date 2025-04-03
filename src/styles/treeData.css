@@ -1,0 +1,126 @@
+body {
+  z-index: 5;
+}
+
+.firstPanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #213721;
+  justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-bottom: 0px;
+}
+
+.firstPanel img {
+  margin-top: 50px;
+  margin-right: 40px;
+  border-radius: 40px;
+
+}
+
+.firstText {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 96px;
+  color: #F1FCDC;
+  margin-left: 50px;
+}
+
+.firstText b {
+  color: #FBFEF7;
+}
+
+.infoPanel {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  gap: 144px;
+  justify-content: space-evenly;
+}
+
+.infoPanel span {
+  background-color: #E3F0AF;
+  font-weight: 500;
+}
+
+.infoPanel center {
+  width: 743px;
+  height: 486px;
+}
+
+.infoPanel img {
+  border-radius: 30px;
+}
+
+.numOfTreesPanel {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #213721;
+  background-size: cover;
+  justify-content: space-evenly;
+  gap: 21px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+}
+
+.plantMenu {
+  display: flex;
+  flex-direction: column;
+  background-color: #FBFEF7;
+  border-radius: 15px;
+  width: 841px;
+  height: 572px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 55px;
+}
+
+.plantMenu h2 {
+  font-size: 32px;
+}
+
+
+.slider {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.slider input {
+  width: 445px;
+}
+
+.menuButtons {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  gap: 144px;
+}
+
+.menuButtons input {
+  background-color: #E3F0AF;
+  width: 233px;
+  height: 58px;
+}
+
+canvas {
+  background-color: #FBFEF7;
+  border-radius: 15px;
+}
