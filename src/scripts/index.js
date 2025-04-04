@@ -11,8 +11,8 @@ var tress = new Array()
 
 function onLoad() {
     const treeBarComponents = ` 
-            <img id="tree1" src="../assets/BIG.jpg" style="display:block;border-radius:33px" width="354px"
-                height="324px">
+            <img id="tree1" src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
+                height="320px">
             <h2>Oak Tree</h2>
             <center>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.

@@ -3,7 +3,7 @@
   flex-direction: row;
   align-items: center;
   background-color: #213721;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-bottom: 0px;
@@ -116,10 +116,10 @@
   flex-direction: column;
   width: 400px;
   height: 630px;
-  border: 11px solid #213721;
+  box-shadow: 2px 4px 10px black;
   border-radius: 11px;
   background-color: #FCFBDD;
-  padding: 5px 5px 15px 5px;
+  padding: 0px 0px 15px 0px;
   align-items: center;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -160,7 +160,7 @@
 .carousel {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 #carouselItem {
