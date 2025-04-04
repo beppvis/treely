@@ -9,6 +9,7 @@
         href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="styles/howwework.css" rel="stylesheet">
+    <link href="styles/homeBar.css" rel="stylesheet">
     <script src="scripts/index.js"></script>
 </head>
 
@@ -22,7 +23,7 @@
         background-color: #f5f5f5;
         color: #333;
     }
-    
+
     .container {
         width: 80%;
         margin: auto;
@@ -101,97 +102,96 @@
     .cta button:hover {
         background: #1d3b20;
     }
-
 </style>
+
 <body onload="onLoad()">
     <div class="homeBar">
-        <div class="logo">Treely<div class="logoBottom">Plant a Billion Trees</div>
+        <div class="logo"><a href="index.html">Treely</a>
+            <div class="logoBottom">Plant a Billion Trees</div>
         </div>
         <div class="homeButtons">
-            <button class="pageButton">Our Work</button>
-            <button class="pageButton">Our People</button>
-            <button class="pageButton">Plant</button>
-            <button class="pageButton">Donate</button>
-            <button class="profileButton">P</button>
+            <button class="pageButton" onclick="window.location.href='./Howwework.html'">Our Work</button>
+            <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
+            <button class="pageButton" onclick="window.location.href='#treeBar'">Plant</button>
+            <button class="pageButton" onclick="window.location.href='#donateToOrg'">Donate</button>
+            <button class="profileButton" onclick="window.location.href='./signIn.html'">P</button>
         </div>
     </div>
-    <div align="center" >
-       
+    <div align="center">
+
         <img src="../assets/Howwework.png" width="1529" height="907">
-      
-        <div class="centered">   
-            
+
+        <div class="centered">
+
             <div class="firstTextwork">
-                 <b>How we Work</b>
+                <b>How we Work</b>
+            </div>
         </div>
+
     </div>
 
-</div>
+    <!-- How We Work Section -->
+    <div class="container">
+        <h2>🌱 How We Work</h2>
+        <div class="steps">
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2549/2549812.png" alt="Tree Selection">
+                <h3>Tree Selection</h3>
+                <p>We carefully select native saplings suited for the environment.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/3616/3616043.png" alt="Site Preparation">
+                <h3>Site Preparation</h3>
+                <p>We ensure the land is fertile and ready for plantation.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Planting">
+                <h3>Tree Planting</h3>
+                <p>Our volunteers and experts plant trees with precision.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png" alt="Watering">
+                <h3>Regular Watering</h3>
+                <p>Ensuring every tree gets the right nourishment to grow strong.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/3121/3121771.png" alt="Community Engagement">
+                <h3>Community Involvement</h3>
+                <p>Educating and engaging local communities for sustainability.</p>
+            </div>
+            <div class="step">
+                <img src="https://cdn-icons-png.flaticon.com/512/2997/2997984.png" alt="Monitoring">
+                <h3>Long-Term Monitoring</h3>
+                <p>Tracking tree growth and ensuring a positive impact.</p>
+            </div>
+        </div>
 
-<!-- How We Work Section -->
-<div class="container">
-    <h2>🌱 How We Work</h2>
-    <div class="steps">
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/2549/2549812.png" alt="Tree Selection">
-            <h3>Tree Selection</h3>
-            <p>We carefully select native saplings suited for the environment.</p>
+        <!-- Impact Section -->
+        <h2>📊 Our Impact So Far</h2>
+        <div class="impact">
+            <div>
+                <h3>🌳 150,000+</h3>
+                <p>Trees Planted</p>
+            </div>
+            <div>
+                <h3>🏙️ 75+</h3>
+                <p>Cities Reforested</p>
+            </div>
+            <div>
+                <h3>👥 20,000+</h3>
+                <p>Volunteers</p>
+            </div>
+            <div>
+                <h3>💧 10M+</h3>
+                <p>Liters of Water Saved</p>
+            </div>
         </div>
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/3616/3616043.png" alt="Site Preparation">
-            <h3>Site Preparation</h3>
-            <p>We ensure the land is fertile and ready for plantation.</p>
-        </div>
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png" alt="Planting">
-            <h3>Tree Planting</h3>
-            <p>Our volunteers and experts plant trees with precision.</p>
-        </div>
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/2972/2972185.png" alt="Watering">
-            <h3>Regular Watering</h3>
-            <p>Ensuring every tree gets the right nourishment to grow strong.</p>
-        </div>
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/3121/3121771.png" alt="Community Engagement">
-            <h3>Community Involvement</h3>
-            <p>Educating and engaging local communities for sustainability.</p>
-        </div>
-        <div class="step">
-            <img src="https://cdn-icons-png.flaticon.com/512/2997/2997984.png" alt="Monitoring">
-            <h3>Long-Term Monitoring</h3>
-            <p>Tracking tree growth and ensuring a positive impact.</p>
+
+        <!-- Call-to-Action -->
+        <div class="cta">
+            <h2>🌿 Join Us in Making a Difference!</h2>
+            <button onclick="window.location.href='#'">🌳 Plant a Tree</button>
+            <button onclick="window.location.href='#'">🤝 Become a Volunteer</button>
         </div>
     </div>
-
-    <!-- Impact Section -->
-    <h2>📊 Our Impact So Far</h2>
-    <div class="impact">
-        <div>
-            <h3>🌳 150,000+</h3>
-            <p>Trees Planted</p>
-        </div>
-        <div>
-            <h3>🏙️ 75+</h3>
-            <p>Cities Reforested</p>
-        </div>
-        <div>
-            <h3>👥 20,000+</h3>
-            <p>Volunteers</p>
-        </div>
-        <div>
-            <h3>💧 10M+</h3>
-            <p>Liters of Water Saved</p>
-        </div>
-    </div>
-
-    <!-- Call-to-Action -->
-    <div class="cta">
-        <h2>🌿 Join Us in Making a Difference!</h2>
-        <button onclick="window.location.href='#'">🌳 Plant a Tree</button>
-        <button onclick="window.location.href='#'">🤝 Become a Volunteer</button>
-    </div>
-</div>
 </body>
-
-   
