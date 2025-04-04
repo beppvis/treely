@@ -9,10 +9,40 @@
         href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link href="styles/ourpeople.css" rel="stylesheet">
+<<<<<<< HEAD
     <link href="styles/homeBar.css" rel="stylesheet">
-    <script src="scripts/index.js"></script>
-</head>
+=======
+    <link href="styles/footer.css" rel="stylesheet">
 
+>>>>>>> a697550 (Revert "Revert "hello mnakkalw"")
+    <script src="scripts/index.js"></script>
+    <style>
+        
+    </style>
+</head>
+<<<<<<< HEAD
+
+=======
+<script>
+    function switchTab(selectedTab, section) {
+        // Remove active class from all tabs
+        document.querySelectorAll('.tab').forEach(tab => {
+            tab.classList.remove('active-tab');
+        });
+
+        // Add active class to the clicked tab
+        selectedTab.classList.add('active-tab');
+
+        // Hide all sections
+        document.querySelectorAll('.content').forEach(content => {
+            content.classList.remove('active');
+        });
+
+        // Show the selected section
+        document.getElementById(section).classList.add('active');
+    }
+</script>
+>>>>>>> a697550 (Revert "Revert "hello mnakkalw"")
 <body onload="onLoad()">
     <div class="homeBar">
         <div class="logo">Treely<div class="logoBottom">Plant a Billion Trees</div>
@@ -25,16 +55,77 @@
             <button class="profileButton">P</button>
         </div>
     </div>
+    
+    <div class="centered">
+        <div class="firstText">
+            <b>Our People</b>
+        </div>
+    </div>
+    
     <div align="center">
         <img src="../assets/Ourpeoplesat.png" width="1529" height="907">
-        <div class="centered">
-            <h1>Our People</h1>
+    </div>
+    
+    <div align="center">
+        <div class="tab-container" align="center">
+            <div class="tab active-tab" onclick="switchTab(this, 'board')">Our Board Members</div>
+            <div class="tab" onclick="switchTab(this, 'partners')">Our Partners</div>
         </div>
     </div>
 
     <div class="aboutUsPanel">
-
-        <button>Learn More</button>
+        <div id="board" class="content active">
+            <div class="members">
+                <div class="card">
+                    <img src="../assets/image.png" alt="Dr- Parthiv Surya">
+                    <p>Dr- Parthiv Surya</p>
+                    <p>Scientist</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Dr- blab fndsbhxbkjra">
+                    <p>Dr- blab fndsbhxbkjra</p>
+                    <p>Scientist</p>
+                </div>
+            </div>
+        </div>
+    
+        <div id="partners" class="content">
+            <div class="partners">
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 1">
+                    <p>Partner 1</p>
+                </div>
+                <div class="card">
+                    <img src="../assets/image.png" alt="Partner 2">
+                    <p>Partner 2</p>
+                </div>
+            </div>
+        </div>
+    </div>
+     <div class="newsletter">
+        <div>
+            <h2>
+                <center>
+                    Get in touch with our team
+                </center>
+            </h2>
+        </div>
+        <div class="sub">
+            <h2>
+                <center>
+                    Subscribe to our newsletter
+                </center>
+            </h2>
+            <input type="email" placeholder="  Email">
+        </div>
     </div>
 </body>
 <footer>
