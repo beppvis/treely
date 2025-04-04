@@ -1,3 +1,18 @@
+.firstPanel1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 0px;
+}
+
+.firstPanel1 img {
+  margin-right: 40px;
+
+}
+
 .firstPanel {
   display: flex;
   flex-direction: row;
