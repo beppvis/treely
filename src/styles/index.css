@@ -143,13 +143,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: no-wrap;
-  justify-content: center;
-  align-items: center;
   gap: 34px;
   overflow-x: auto;
-  padding-left: 30px;
   max-width: 100%;
-  margin-bottom: 100px;
+  overscroll-behavior-x: contain;
 }
 
 .displayBar {
