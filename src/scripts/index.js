@@ -24,14 +24,30 @@ function onLoad() {
                 <button onclick="window.location.href='../src/treeData.html'">Plant</button>
             </div>
         `
+    const viewMoreComponents = `
+                <a href="">
+                    <img id="viewMore" src="../assets/arrow-right-circle.svg"
+                        style="display:block;margin-right:0;margin-left:0;margin-top:144px;margin-bottom:89px ;border-radius:11px 11px 0px 0px"
+                        width="225px" height="225px">
+                    <h2>View More</h2>
+                </a>
+`
     var treeBar = document.getElementById("treeBar");
+    var noOfbars = 10;
 
-    for (let i = 0; i < 10; i++) {
-
-        var treeDisplayBar = document.createElement("div");
-        treeDisplayBar.className = "displayBar";
-        treeDisplayBar.innerHTML = treeBarComponents;
-        treeBar.appendChild(treeDisplayBar);
+    for (let i = 0; i < noOfbars; i++) {
+        if (i == noOfbars - 1) {
+            var viewMoreBar = document.createElement("div");
+            viewMoreBar.className = "viewMore";
+            viewMoreBar.innerHTML = viewMoreComponents;
+            treeBar.appendChild(viewMoreBar);
+        }
+        else {
+            var treeDisplayBar = document.createElement("div");
+            treeDisplayBar.className = "displayBar";
+            treeDisplayBar.innerHTML = treeBarComponents;
+            treeBar.appendChild(treeDisplayBar);
+        }
     }
 }
 

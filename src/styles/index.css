@@ -214,6 +214,52 @@
   margin: 0px 0px 0px 0px;
 }
 
+.viewMore {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-width: 400px;
+  width: 400px;
+  height: 630px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 11px;
+  background-color: #FCFBDD;
+  padding: 0px 0px 15px 0px;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  column-gap: 2px;
+  gap: 21px;
+  margin-bottom: 50px;
+  transform: translateY(0px);
+  transition: transform 0.5s ease-out;
+
+}
+
+.viewMore img {
+  display: block;
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 144px;
+  margin-bottom: 89px;
+  border-radius: 11px 11px 0px 0px;
+}
+
+.viewMore a {
+  text-decoration: unset;
+}
+
+.viewMore h2 {
+  margin-top: 0;
+  margin-bottom: 144px;
+  font-size: 40px;
+  font-weight: 600;
+  color: #3B520C;
+}
+
 .displayBar center {
   font-size: 15px;
   width: 283px;
