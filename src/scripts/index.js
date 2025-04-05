@@ -9,6 +9,9 @@ function Tree() {
 var tress = new Array()
 
 
+
+
+
 function onLoad() {
     const treeBarComponents = ` 
             <img id="tree1" src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"

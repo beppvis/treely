@@ -11,6 +11,7 @@
     <link href="styles/homeBar.css" rel="stylesheet">
     <link href="styles/signIn.css" rel="stylesheet">
     <link href="styles/footer.css" rel="stylesheet">
+    <script src="scripts/userManagement.js"></script>
 </head>
 
 <body>
@@ -23,12 +24,12 @@
             <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
             <button class="pageButton" onclick="window.location.href='#plant'">Plant</button>
             <button class="pageButton" onclick="window.location.href='#donateToOrg'">Donate</button>
-            <button class="profileButton" onclick="window.location.href='./signIn.html'">P</button>
+            <button class="profileButton" onclick="window.location.href='./logIn.html'">P</button>
         </div>
     </div>
     <div class="firstPanel">
         <div class="SignInForm">
-            <form action="">
+            <form action="" onsubmit="signInformParser()">
                 <h2>Sign In</h2>
                 <input type="name" placeholder="Name" class="in" id="name" required>
                 <input type="email" placeholder="Email" id="email" class="in" required>
