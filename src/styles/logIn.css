@@ -13,7 +13,7 @@ body {
 }
 
 
-.SignInForm {
+.LogInForm {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -26,12 +26,12 @@ body {
   gap: 21px;
 }
 
-.SignInForm h2 {
+.LogInForm h2 {
   font-size: 24px;
   font-weight: 390;
 }
 
-.SignInForm .in {
+.LogInForm .in {
   width: 292px;
   height: 44px;
   border-radius: 15px;
@@ -39,7 +39,7 @@ body {
   background: transparent;
 }
 
-.SignInForm input:user-invalid:not(:is([type="checkbox"])) {
+.LogInForm input:user-invalid:not(:is([type="checkbox"])) {
   animation: oopsie 0.5s;
   border-color: red;
   color: red;
@@ -60,7 +60,7 @@ body {
 }
 
 
-.SignInForm form {
+.LogInForm form {
   display: flex;
   flex-direction: column;
   gap: 21px;
@@ -69,7 +69,7 @@ body {
   margin-bottom: 21px;
 }
 
-.SignInForm button {
+.LogInForm button {
   background-color: #BECD9D;
   border: 1px solid black;
   width: 106px;
@@ -77,15 +77,15 @@ body {
   border-radius: 15px;
 }
 
-.SignInForm button:focus {
+.LogInForm button:focus {
   background-color: #213721;
 }
 
-.SignInForm #terms {
+.LogInForm #terms {
   font-size: 12px;
 }
 
-.SignInForm #terms #signIN {
+.LogInForm #terms #signIN {
   margin-left: 30px;
   width: 106px;
   height: 44px;

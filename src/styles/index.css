@@ -173,7 +173,7 @@
   min-width: 400px;
   width: 400px;
   height: 630px;
-  box-shadow: 2px 4px 10px black;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
   border-radius: 11px;
   background-color: #FCFBDD;
   padding: 0px 0px 15px 0px;
@@ -186,6 +186,8 @@
   column-gap: 2px;
   gap: 21px;
   margin-bottom: 50px;
+  transform: translateY(0px);
+  transition: transform 0.5s ease-out;
 }
 
 .displayBar:hover {
@@ -197,12 +199,12 @@
 @keyframes moveUp {
   0% {
     transform: translateY(0px);
-    box-shadow: 2px 4px 10px black;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
   }
 
   100% {
-    transform: translateY(-30px);
-    box-shadow: 2px 12px 10px black;
+    transform: translateY(-10px);
+    box-shadow: 2px 14px 10px rgba(0, 0, 0, 0.7);
   }
 }
 
