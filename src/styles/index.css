@@ -149,6 +149,10 @@
   overscroll-behavior-x: contain;
 }
 
+#treeBar::-webkit-scrollbar {
+  width: 20px;
+}
+
 .displayBar {
   display: flex;
   flex-direction: column;
@@ -168,6 +172,7 @@
   font-size: 24px;
   column-gap: 2px;
   gap: 21px;
+  margin-bottom: 50px;
 }
 
 .displayBar h2 {
