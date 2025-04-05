@@ -117,18 +117,46 @@
   font-size: 75px;
 }
 
-#treeBar {
+.plant {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-color: #213721;
   gap: 34px;
+  padding-top: 34px;
+  padding-bottom: 34px;
+}
+
+.plant h2 {
+  font-size: 75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #F1FCDC;
+
+}
+
+#treeBar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no-wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  overflow-x: auto;
+  padding-left: 30px;
+  max-width: 100%;
+  margin-bottom: 100px;
 }
 
 .displayBar {
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  min-width: 400px;
   width: 400px;
   height: 630px;
   box-shadow: 2px 4px 10px black;
@@ -158,6 +186,7 @@
 }
 
 .displayBar .displayButtons {
+  display: flex;
   margin: 0px 0px 0px 0px;
 }
 
