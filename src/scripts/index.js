@@ -12,12 +12,15 @@ function addItem(item) {
     if (localStorage.getItem("activeUser") != null) {
         if (localStorage.getItem("cart") != null) {
             let cart = JSON.parse(localStorage.getItem("cart"))
-            cart.push(item.className)
+            if (cart[item.className] != null)
+                cart[item.className] += 1
+            else
+                cart[item.className] = 1
             localStorage.setItem("cart", JSON.stringify(cart))
         }
         else {
-            let cart = new Array()
-            cart.push(item.className)
+            let cart = {}
+            cart[item.className] = 1
             localStorage.setItem("cart", JSON.stringify(cart))
         }
         alert("Successfully carted Item");

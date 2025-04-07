@@ -46,6 +46,7 @@ function createUser(name, email, password) {
             return
         }
     }
+    window.location.href = "./logIn.html";
     alert("Created an account!")
 }
 function logIn(email, password) {

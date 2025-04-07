@@ -59,6 +59,20 @@
 }
 
 
+.profileButton span {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.profileButton {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+
+
 .userDropDown {
   position: relative;
   display: inline-block;
@@ -67,20 +81,24 @@
 .userDropDownContent {
   display: none;
   position: absolute;
+  transform: translateX(-30px);
+}
+
+.userDropDownContent a {
+  background-color: white;
+  padding-left: 13px;
+  padding-right: 13px;
+  margin-right: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  display: block;
 }
 
 .userDropDown:hover .userDropDownContent {
   display: block;
-}
-
-.profileButton {
-  background-color: #118B50;
-  margin-right: 20px;
-  border-radius: 30px;
-  border: none;
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
 }
 
 .logoBottom {
