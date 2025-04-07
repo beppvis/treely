@@ -8,25 +8,48 @@ function Tree() {
 
 var tress = new Array()
 
+function addItem(item) {
+    if (localStorage.getItem("activeUser") != null) {
+        if (localStorage.getItem("cart") != null) {
+            let cart = JSON.parse(localStorage.getItem("cart"))
+            cart.push(item.className)
+            localStorage.setItem("cart", JSON.stringify(cart))
+        }
+        else {
+            let cart = new Array()
+            cart.push(item.className)
+            localStorage.setItem("cart", JSON.stringify(cart))
+        }
+    }
+    else {
+        alert("You need to log in to cart an item!");
+        window.location.href = "./logIn.html";
+    }
+}
 
 
-
-
-function onLoad() {
-    const treeBarComponents = ` 
+function get_treeBarComponents(name) {
+    return ` 
             <img id="tree1" src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
-            <h2>Oak Tree</h2>
+            <h2>${name}</h2>
             <center>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.
                 Sed condimentum eleifend dolor eu semper. Fusce accumsan dolor nec enim lobortis faucibus.
                 Pellentesque congue
             </center>
             <div class="displayButtons">
-                <button>Cart</button>
+                <button onclick="addItem(this)" class="${name}">Cart</button>
                 <button onclick="window.location.href='../src/treeData.html'">Plant</button>
             </div>
-        `
+`
+
+}
+
+
+
+
+function onLoad() {
     const viewMoreComponents = `
                 <a href="viewmore.html">
                     <img id="viewMore" src="../assets/arrow-right-circle.svg"
@@ -48,7 +71,7 @@ function onLoad() {
         else {
             var treeDisplayBar = document.createElement("div");
             treeDisplayBar.className = "displayBar";
-            treeDisplayBar.innerHTML = treeBarComponents;
+            treeDisplayBar.innerHTML = get_treeBarComponents("Oak Tree");
             treeBar.appendChild(treeDisplayBar);
         }
     }

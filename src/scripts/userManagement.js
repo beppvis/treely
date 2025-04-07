@@ -54,7 +54,7 @@ function logIn(email, password) {
         let user = users[user_index]
         if (email === user.email && password === user.password) {
             alert("Logged In!")
-            localStorage.setItem("signedInUser", JSON.stringify(user))
+            localStorage.setItem("activeUser", JSON.stringify(user))
             return null;
         }
     }
