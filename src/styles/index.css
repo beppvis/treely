@@ -47,6 +47,21 @@
   padding-bottom: 20px;
 }
 
+.appearFromBelow {
+  display: flex;
+  animation: fromBelow ease-in 5s;
+}
+
+@keyframes fromBelow {
+  0% {
+    transform: translateX(100px);
+  }
+
+  100% {
+    transform: translateX(0px);
+  }
+}
+
 .aboutUsPanel h2 {
   font-size: 75px;
 }

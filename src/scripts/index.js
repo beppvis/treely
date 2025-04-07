@@ -1,4 +1,19 @@
 
+const trees = {
+    "trees":
+        [
+            {
+                "name": "Oak Tree",
+                "filePath": "../../assets/BIG.jpg",
+                "description": "Hello there"
+            },
+            {
+                "name": "Myre Tree",
+                "filePath": "../../assets/oo.png",
+                "description": "Hello there"
+            },
+        ]
+}
 
 function Tree() {
     this.image = document.getElementById("tree1");
@@ -6,7 +21,6 @@ function Tree() {
 
 
 
-var tress = new Array()
 
 function addItem(item) {
     if (localStorage.getItem("activeUser") != null) {
@@ -32,15 +46,13 @@ function addItem(item) {
 }
 
 
-function get_treeBarComponents(name) {
+function getTreeBarComponents(name, img_path, description) {
     return ` 
-            <img id="tree1" src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
+<img id="tree1" src="${img_path}" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
             <h2>${name}</h2>
             <center>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend vel metus sed lacinia.
-                Sed condimentum eleifend dolor eu semper. Fusce accumsan dolor nec enim lobortis faucibus.
-                Pellentesque congue
+                ${description}
             </center>
             <div class="displayButtons">
                 <button onclick="addItem(this)" class="${name}">Cart</button>
@@ -63,24 +75,32 @@ function onLoad() {
                 </a>
 `
     var treeBar = document.getElementById("treeBar");
-    var noOfbars = 10;
 
-    for (let i = 0; i < noOfbars; i++) {
-        if (i == noOfbars - 1) {
-            var viewMoreBar = document.createElement("div");
-            viewMoreBar.className = "viewMore";
-            viewMoreBar.innerHTML = viewMoreComponents;
-            treeBar.appendChild(viewMoreBar);
-        }
-        else {
-            var treeDisplayBar = document.createElement("div");
-            treeDisplayBar.className = "displayBar";
-            treeDisplayBar.innerHTML = get_treeBarComponents("Oak Tree");
-            treeBar.appendChild(treeDisplayBar);
-        }
+    let treesArray = trees["trees"];
+    console.log(trees)
+    for (let tree_index in treesArray) {
+        var tree = treesArray[tree_index]
+        var treeDisplayBar = document.createElement("div");
+        treeDisplayBar.className = "displayBar";
+        treeDisplayBar.innerHTML = getTreeBarComponents(tree["name"], tree["filePath"], tree["description"]);
+        treeBar.appendChild(treeDisplayBar);
     }
+    var viewMoreBar = document.createElement("div");
+    viewMoreBar.className = "viewMore";
+    viewMoreBar.innerHTML = viewMoreComponents;
+    treeBar.appendChild(viewMoreBar);
+
 }
 
+window.onscroll = function() { scrolling() }
+function scrolling() {
+    console.log(document.documentElement.scrollTop)
+    let aboutUsPanel = document.getElementById("aboutUsPanel")
+    let aboutUsContent = document.getElementById("aboutUsContent")
+    if (document.documentElement.scrollTop >= 1604 + aboutUsPanel.scrollHeight || document.body.scrollTop >= 1604 + aboutUsPanel.scrollHeight) {
+        aboutUsContent.classList.add("appearFromBelow")
+    }
+}
 
 function switchToMe(item) {
 
