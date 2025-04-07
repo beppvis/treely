@@ -3,52 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Treely</title>
-    <link href="styles/AboutUs.css" rel="stylesheet" />
+    <title>Treely-Our Work</title>
+    <link rel="stylesheet" href="styles/AboutUs.css">
+    <link rel="stylesheet" href="styles/index.css">
 </head>
-<body>
-    <div class="container">
-        <div class="aboutUsPanel">
-            <p>"The true meaning of life is to plant trees,<br>
-                under whose shade you do not expect to sit."</p>
-            <p>— Nelson Henderson</p>
+<body onload="onLoad()">
+    <div class="homeBar">
+        <div class="logo"><a href="index.html">Treely</a>
+            <div class="logoBottom">Plant a Billion Trees</div>
         </div>
-    </div>
-        <div class="treeInfo">
-            <div class="treeImage">
-                <img src="../../assets/tree-in-hand.jpg" alt="Tree in Hand">
-            </div>
-            <div class="treeText">
-                <p>Planting trees is vital for a sustainable future, combating climate change, preserving biodiversity, and improving air quality. 
-                    By planting and protecting forests, we ensure a healthier planet for future generations. 
-                    Every tree planted is a step toward restoring balance to our environment.</p>
-                <div class="buttonContainer">
-                    <button class="plantTree">Plant a tree</button>
-                    <button class="goToList">Go to List</button>
+        <div class="homeButtons">
+            <button class="pageButton" onclick="window.location.href='./Howwework.html'">Our Work</button>
+            <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
+            <button class="pageButton" onclick="window.location.href='./index.html#plant'">Plant</button>
+            <button class="pageButton" onclick="window.location.href='./index.html#donateToOrg'">Donate</button>
+            <div class="userDropDown">
+                <button class="profileButton" onclick="window.location.href='./logIn.html'"><span>P</span></button>
+                <div class="userDropDownContent">
+                    <a href="viewmore.html">Cart</a>
                 </div>
             </div>
         </div>
-        <div class="TreeInfo">
-    </div>
+    </div><br>
+    <div class="firstPanel">
+        <div class="firstText">
+            Our <b>WORKS</b><br>
+        </div>
+        <img src="../assets/firstPanel.png" width="578" height="551">
+    </div><br>
+    <div class="parallelContainer">
+        <div class="treeSection">
+            <div class="treeImage">
+                <img src="../assets/treeinhand.png" alt="Tree in hand">
+            </div>
+            <div class="treeText">
+                <p>
+                    Planting trees is vital for a sustainable future, combating climate change, preserving biodiversity, 
+                    and improving air quality. By planting and protecting forests, we ensure a healthier planet for future 
+                    generations. Every tree planted is a step toward restoring balance to our environment.
+                </p>
+                <div class="buttonContainer">
+                    <button class="treeButton">Plant a tree</button>
+                    <button class="listButton">Go to List</button>
+                </div>
+            </div>
+        </div>
 
- </div>
-
- <div class="InsightsPanel">
-    <div class="InsightsImg">
-        <img src="../../assets/treestroke.jpg" alt="Tree in Hand">
+        <!-- Second Section -->
+        <div class="treeSection">
+            <div class="treeText">
+                <p>
+                    Planting trees is vital for a sustainable future, combating climate change, preserving biodiversity, 
+                    and improving air quality. By planting and protecting forests, we ensure a healthier planet for future 
+                    generations. Every tree planted is a step toward restoring balance to our environment.
+                </p>
+                <button class="treeButton"></button>
+            </div>
+            <div class="treeImage">
+                <img src="../assets/treeinhand.png" alt="Tree in hand">
+            </div>
+        </div>
     </div>
-    <div class="InsightsText">
-        <h2>Insights from our team</h2>
-            <h3>Donate a Tree, Create a Greener Tomorrow</h3>
-            <p>Donating a tree helps restore forests, combat climate change, and support wildlife...</p>
-             <h3>Our Team’s Planning Goals</h3>
-            <p>Our team is committed to planting trees to restore ecosystems, combat climate change, and support biodiversity...</p>
-        <p>Planting trees is vital for a sustainable future, combating climate change, preserving biodiversity, and improving air quality. 
-            By planting and protecting forests, we ensure a healthier planet for future generations. 
-            Every tree planted is a step toward restoring balance to our environment.</p>
-       
-    </div>
-</div>
+    <hr style="border: none; border-top: 20px solid #213721;">
+    <div class="content-box">
+        <h2>Donate A Tree, Create a Greener Tomorrow</h2>
+        <p>Donating a tree helps restore forests, combat climate change, and support wildlife. Your contribution provides cleaner air, reduces carbon emissions, and enhances biodiversity.</p>
+        
+        <div class="image-wrapper">
+            <img src="../assets/map.png" alt="Map with Trees">
+        </div>
 
+        <h3>Our Team’s Planning Goals</h3>
+        <p>Our team is committed to planting trees to restore ecosystems, combat climate change, and support biodiversity. We aim to plant <span class="emphasized-text">[insert number]</span> trees this year, focusing on reforestation, urban greening.</p>
+    </div>
 </body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section logo">
+            <h2>Treely</h2>
+            <p>Treely is a 501(c)3 tax-exempt organization and your donation is tax-deductible within the guidelines of
+                indian law.</p>
+            <p><strong>TAX ID #46-4664562</strong></p>
+        </div>
+        <div class="footer-section financials">
+            <h3>FINANCIALS</h3>
+            <ul>
+                <p>Our Financials</p>
+                <li><a href="#">2023: Form 990 | Audit Report</a></li>
+                <li><a href="#">2022: Form 990 | Audit Report</a></li>
+                <li><a href="#">2021: Form 990 | Audit Report</a></li>
+                <li><a href="#">2020: Form 990 | Audit Report</a></li>
+                <li><a href="#">2019: Form 990 | Audit Report</a></li>
+            </ul>
+        </div>
+        <div class="footer-section quick-links">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h3>CONNECT</h3>
+            <p><strong>Call:</strong> 9037407267 or 04872304989</p>
+            <p>Amrita Vishwa vidhyapeedam, coimbotore ettimadaii</p>
+        </div>
+    </div>
+</footer>
 </html>
