@@ -15,7 +15,6 @@
 
 
 <style>
-    /* General Styles */
     body {
         font-family: Arial, sans-serif;
         margin: 0;
@@ -24,13 +23,12 @@
         color: #333;
     }
 
-    .container {
+    /* .container {
         width: 80%;
         margin: auto;
         padding: 20px 0;
-    }
+    }*/
 
-    /* Section Title */
     h2 {
         text-align: center;
         font-size: 2em;
@@ -38,10 +36,9 @@
         margin-bottom: 20px;
     }
 
-    /* Step-by-Step Process */
     .steps {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap:wrap;
         justify-content: space-between;
         text-align: center;
     }
@@ -55,9 +52,9 @@
         margin-bottom: 20px;
         transition: transform 0.3s;
     }
-
     .step:hover {
-        transform: scale(1.05);
+        transform: scale(1.02);
+        background-color: #bccebe;
     }
 
     .step img {
@@ -65,7 +62,6 @@
         margin-bottom: 10px;
     }
 
-    /* Impact Section */
     .impact {
         display: flex;
         justify-content: space-around;
@@ -81,7 +77,6 @@
         font-size: 1.2em;
     }
 
-    /* Call-to-Action */
     .cta {
         text-align: center;
         margin-top: 30px;
@@ -130,12 +125,14 @@
 
     </div>
 
-    <!-- How We Work Section -->
     <div class="container">
         <h2>🌱 How We Work</h2>
         <div class="steps">
             <div class="step">
-                <img src="https://cdn-icons-png.flaticon.com/512/2549/2549812.png" alt="Tree Selection">
+                <img src="https://cdn-icons-png.flaticon.com/512/2549/2549812.png" alt="Tree">
+                <h2>Step 1</h2>
+
+
                 <h3>Tree Selection</h3>
                 <p>We carefully select native saplings suited for the environment.</p>
             </div>
@@ -166,7 +163,6 @@
             </div>
         </div>
 
-        <!-- Impact Section -->
         <h2>📊 Our Impact So Far</h2>
         <div class="impact">
             <div>
@@ -186,11 +182,9 @@
                 <p>Liters of Water Saved</p>
             </div>
         </div>
-
-        <!-- Call-to-Action -->
         <div class="cta">
             <h2>🌿 Join Us in Making a Difference!</h2>
-            <button onclick="window.location.href='#'">🌳 Plant a Tree</button>
+            <button onclick="window.location.href='./viewmore.html'">🌳 Plant a Tree</button>
             <button onclick="window.location.href='#'">🤝 Become a Volunteer</button>
         </div>
     </div>
