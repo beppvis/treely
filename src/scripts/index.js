@@ -67,7 +67,8 @@ async function onLoad() {
         })
         .catch(error => console.log(error));
 
-    for (let tree_index in treesArray) {
+    const noOftimes = 6
+    for (let tree_index = 0; tree_index < noOftimes; tree_index++) {
         var tree = treesArray[tree_index]
         var treeDisplayBar = document.createElement("div");
         treeDisplayBar.className = "displayBar";
