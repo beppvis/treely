@@ -103,7 +103,23 @@
   function Tree() {
     this.image = document.getElementById("tree1");
   }
-  function onLoad1() {
+
+  function getTreeBarComponents(name, img_path, description) {
+    return `
+                <img src="${img_path}" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
+                height="320px">
+<h2>${name}</h2>
+            <div class="displayButtons">
+                <button>Cart</button>
+                <button onclick="window.location.href='../src/treeData.html'">Plant</button>
+            </div>
+ 
+`
+
+  }
+
+
+  async function onLoad1() {
     const treeBarComponents = ` 
             <img src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
@@ -113,12 +129,21 @@
                 <button onclick="window.location.href='../src/treeData.html'">Plant</button>
             </div>
         `
+    let treesArray = new Array();
+    let trees = await fetch('./scripts/data/trees.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data)
+        data.trees.forEach(data => {treesArray.push(data)})
+      })
+      .catch(error => console.log(error));
     var treeBar = document.getElementById("treeBar");
-    for (let i = 0; i < 50; i++) {
+    for (let tree_index in treesArray) {
+      var tree = treesArray[tree_index]
       var treeDisplayBar = document.createElement("div");
       treeDisplayBar.className = "displayBar";
-      treeDisplayBar.innerHTML = treeBarComponents;
-      treeBar.appendChild(treeDisplayBar);
+      treeDisplayBar.innerHTML = getTreeBarComponents(tree["name"], tree["filePath"], tree["description"]);
+      treeBar.appendChild(treeDisplayBar)
     }
   }
 </script>
