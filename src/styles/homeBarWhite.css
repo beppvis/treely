@@ -42,8 +42,9 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: #118B50;
+  background-color: transparent;
   color: #213721;
+  font-size: 26px;
   border: none;
   border-radius: 9px;
   height: 60px;
@@ -60,6 +61,13 @@
   width: 60px;
   height: 60px;
 }
+
+.pageButton:hover {
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  text-decoration-skip-ink: auto;
+}
+
 
 .logoBottom {
   font-size: 10px;

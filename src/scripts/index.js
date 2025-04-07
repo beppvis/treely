@@ -20,6 +20,7 @@ function addItem(item) {
             cart.push(item.className)
             localStorage.setItem("cart", JSON.stringify(cart))
         }
+        alert("Successfully carted Item");
     }
     else {
         alert("You need to log in to cart an item!");

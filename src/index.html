@@ -11,7 +11,6 @@
     <link href="styles/index.css" rel="stylesheet">
     <link href="styles/homeBar.css" rel="stylesheet">
     <link href="styles/footer.css" rel="stylesheet">
-    <link href="styles/homeBar.css" rel="stylesheet">
     <link href="styles/footer.css" rel="stylesheet">
     <script src="scripts/index.js"></script>
 </head>
@@ -26,7 +25,14 @@
             <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
             <button class="pageButton" onclick="window.location.href='#plant'">Plant</button>
             <button class="pageButton" onclick="window.location.href='#donateToOrg'">Donate</button>
-            <button class="profileButton" onclick="window.location.href='./logIn.html'">P</button>
+            <div class="userDropDown">
+                <button class="profileButton" onclick="window.location.href='./logIn.html'">P</button>
+                <div class="userDropDownContent">
+                    <a href="viewmore.html">View More</a>
+                    <a href="viewmore.html">View More</a>
+                    <a href="viewmore.html">View More</a>
+                </div>
+            </div>
         </div>
     </div>
     <div class="firstPanel">
@@ -63,7 +69,8 @@
     <div class="aboutUsPanel">
         <h2>ABOUT US </h2>
         <p>
-            <center>We are the largest conservation organisation in the <br>world, working to protect the lands on which
+            <center>We are the largest conservation organisation in the <br>world, working to protect the lands on
+                which
                 all life
                 <br>depends.
             </center>
