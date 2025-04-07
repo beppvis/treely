@@ -1,10 +1,75 @@
 {
-    "trees:" :
-    [
+    "trees" :[
     {
         "name" : "Oak Tree",
         "filePath" : "../../assets/BIG.jpg",
         "description":"Hello there"
     },
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    },
+
+
+    {
+        "name" : "Oak Tree",
+        "filePath" : "../../assets/BIG.jpg",
+        "description":"Hello there"
+    }
     ]
 }

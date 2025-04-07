@@ -1,20 +1,3 @@
-
-const trees = {
-    "trees":
-        [
-            {
-                "name": "Oak Tree",
-                "filePath": "../../assets/BIG.jpg",
-                "description": "Hello there"
-            },
-            {
-                "name": "Myre Tree",
-                "filePath": "../../assets/oo.png",
-                "description": "Hello there"
-            },
-        ]
-}
-
 function Tree() {
     this.image = document.getElementById("tree1");
 }
@@ -47,7 +30,7 @@ function addItem(item) {
 
 
 function getTreeBarComponents(name, img_path, description) {
-    return ` 
+    return `
 <img id="tree1" src="${img_path}" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
             <h2>${name}</h2>
@@ -65,7 +48,7 @@ function getTreeBarComponents(name, img_path, description) {
 
 
 
-function onLoad() {
+async function onLoad() {
     const viewMoreComponents = `
                 <a href="viewmore.html">
                     <img id="viewMore" src="../assets/arrow-right-circle.svg"
@@ -75,9 +58,15 @@ function onLoad() {
                 </a>
 `
     var treeBar = document.getElementById("treeBar");
+    let treesArray = new Array();
+    let trees = await fetch('./scripts/data/trees.json')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            data.trees.forEach(data => { treesArray.push(data) })
+        })
+        .catch(error => console.log(error));
 
-    let treesArray = trees["trees"];
-    console.log(trees)
     for (let tree_index in treesArray) {
         var tree = treesArray[tree_index]
         var treeDisplayBar = document.createElement("div");
@@ -94,7 +83,6 @@ function onLoad() {
 
 window.onscroll = function() { scrolling() }
 function scrolling() {
-    console.log(document.documentElement.scrollTop)
     let aboutUsPanel = document.getElementById("aboutUsPanel")
     let aboutUsContent = document.getElementById("aboutUsContent")
     if (document.documentElement.scrollTop >= 1604 + aboutUsPanel.scrollHeight || document.body.scrollTop >= 1604 + aboutUsPanel.scrollHeight) {
