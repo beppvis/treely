@@ -14,14 +14,14 @@
     <script src="scripts/userManagement.js"></script>
 </head>
 <style>
-      
-        .error {
-            color: red;
-            font-size: 14px;
-            align-items: left;
-        }
-    </style>
+    .error {
+        color: red;
+        font-size: 14px;
+        align-items: left;
+    }
 </style>
+</style>
+
 <body>
     <div class="homeBar">
         <div class="logo"><a href="index.html">Treely</a>
@@ -32,16 +32,16 @@
             <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
             <button class="pageButton" onclick="window.location.href='#plant'">Plant</button>
             <button class="pageButton" onclick="window.location.href='#donateToOrg'">Donate</button>
-            <button class="profileButton" onclick="window.location.href='./logIn.html'">P</button>
+            <button class="profileButton" onclick="window.location.href='./logIn.html'"></button>
         </div>
     </div>
     <script>
-        
+
         function validateForm() {
             var name = document.getElementById("name").value;
             var checkbox = document.getElementById("checkbox");
             var checkerror = document.getElementById("checkerror");
-           
+
             var email = document.getElementById("email").value;
             var password = document.getElementById("password").value;
             var nameerror = document.getElementById("nameerror");
@@ -62,7 +62,7 @@
             } else {
                 emailError.innerText = null
             }
-            let passwordRegex =  /^.{6,}$/
+            let passwordRegex = /^.{6,}$/
             if (!passwordRegex.test(password)) {
                 passwordError.innerText = "Min 6 characters required!";
                 isValid = false;
@@ -78,10 +78,10 @@
             return isValid;
 
         }
-        function chekerAndContinue(){
+        function chekerAndContinue() {
             console.log(validateForm())
-            if (validateForm() == true){
-                signInformParser(); 
+            if (validateForm() == true) {
+                signInformParser();
                 return true
             }
             else
@@ -91,22 +91,22 @@
     </script>
     <div class="firstPanel">
         <div class="SignInForm">
-            <form  onsubmit="return chekerAndContinue()" >
+            <form onsubmit="return chekerAndContinue()">
                 <h2>Sign In</h2>
-                <input type="text" placeholder="Name" class="in" id="name" >
+                <input type="text" placeholder="Name" class="in" id="name">
                 <span id="nameerror" class="error"></span>
 
-                <input type="text" placeholder="Email" id="email" class="in" >
+                <input type="text" placeholder="Email" id="email" class="in">
                 <span id="emailError" class="error"></span>
 
-                <input type="text" placeholder="Password" id="password" class="in" >
+                <input type="text" placeholder="Password" id="password" class="in">
                 <span id="passwordError" class="error"></span>
 
                 <div id="terms">
-                    
+
                     <input type="checkbox" id="checkbox">Terms and conditions apply <br>
                     <span id="checkerror" class="error"></span>
-<br>
+                    <br>
 
                 </div>
                 <button id="signIn" type="submit">Sign In</button>
@@ -151,4 +151,5 @@
         </div>
     </div>
 </footer>
+
 </html>

@@ -21,7 +21,16 @@ function getTreeBarComponents(name, img_path, description) {
 `
 
 }
+
+function loggedIn() {
+    if (localStorage.getItem("activeUser") != null)
+        document.getElementById("profilePic").classList.add("active")
+    else
+        return false
+}
+
 async function onLoad1() {
+    loggedIn();
     let treesArray = new Array();
     let trees = await fetch('./scripts/data/trees.json')
         .then(response => response.json())

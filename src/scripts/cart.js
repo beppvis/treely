@@ -94,7 +94,16 @@ function setTotal() {
     tota.innerHTML = "$" + amount;
 }
 
+
+function loggedIn() {
+    if (localStorage.getItem("activeUser") != null)
+        document.getElementById("profilePic").classList.add("active")
+    else
+        return false
+}
+
 async function onLoad1() {
+    loggedIn()
     var treeBar = document.getElementById("treeBar");
     let cart = JSON.parse(localStorage.getItem("cart"));
     for (let tree in cart) {

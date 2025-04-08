@@ -330,6 +330,15 @@
   animation-fill-mode: forwards;
 }
 
+#carouselItem a {
+  color: black;
+  text-decoration: unset;
+}
+
+#carouselItem a:hover {
+  color: black;
+}
+
 @keyframes increaseWidth {
 
   0% {

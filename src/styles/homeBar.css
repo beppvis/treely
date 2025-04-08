@@ -65,6 +65,12 @@
   height: 100%;
 }
 
+.profileButton.active {
+  border-radius: 10px;
+  background-image: url("../../assets/profpic.png");
+  background-size: cover;
+}
+
 .profileButton {
   margin-right: 20px;
   width: 60px;

@@ -3,7 +3,9 @@ function Tree() {
 }
 
 
-
+function donate() {
+    alert("Thanks fo the donation")
+}
 
 function addItem(item) {
     if (localStorage.getItem("activeUser") != null) {
@@ -51,9 +53,17 @@ function getTreeBarComponents(name, img_path, description, longDescription) {
 }
 
 
-
+function loggedIn() {
+    if (localStorage.getItem("activeUser") != null)
+        document.getElementById("profilePic").classList.add("active")
+    else
+        return false
+}
 
 async function onLoad() {
+
+    loggedIn()
+
     const viewMoreComponents = `
                 <a href="viewmore.html">
                     <img id="viewMore" src="../assets/arrow-right-circle.svg"
@@ -64,6 +74,7 @@ async function onLoad() {
 `
     var treeBar = document.getElementById("treeBar");
     let treesArray = new Array();
+
     let trees = await fetch('./scripts/data/trees.json')
         .then(response => response.json())
         .then(data => {

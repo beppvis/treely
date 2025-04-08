@@ -56,6 +56,7 @@ function logIn(email, password) {
         if (email === user.email && password === user.password) {
             alert("Logged In!")
             localStorage.setItem("activeUser", JSON.stringify(user))
+            window.location.href = "/src/index.html"
             return null;
         }
     }

@@ -15,7 +15,7 @@
     <script src="scripts/index.js"></script>
 </head>
 
-<body onload="onLoad()">
+<body onload="onLoad()" id="body">
     <div class="homeBar">
         <div class="logo"><a href="index.html">Treely</a>
             <div class="logoBottom">Plant a Billion Trees</div>
@@ -26,7 +26,7 @@
             <button class="pageButton" onclick="window.location.href='./index.html#plant'">Plant</button>
             <button class="pageButton" onclick="window.location.href='./index.html#donateToOrg'">Donate</button>
             <div class="userDropDown">
-                <button class="profileButton" onclick="window.location.href='./logIn.html'"><span>P</span></button>
+                <button class="profileButton" id="profilePic" onclick="window.location.href='./logIn.html'"></button>
                 <div class="userDropDownContent">
                     <a href="cart.html">Cart</a>
                 </div>
@@ -84,12 +84,12 @@
         <div id="carouselItem">
             <div class="visibleCarouselItem" id="meetOurTeam" onmouseover="switchToMe(this)">
                 <p>
-                    Meet Our Team
+                    <a href="Ourpeople.html">Meet Our Team</a>
                 </p>
             </div>
             <div class="" id="howWeWork" onmouseover="switchToMe(this)">
                 <p>
-                    How we Work
+                    <a href="Howwework.html">How we Work</a>
                 </p>
             </div>
 
@@ -104,7 +104,7 @@
             </h2>
         </div>
         <div class="donationForm">
-            <form action="">
+            <form action="" onsubmit="donate()">
                 <div class="donationButtons">
                     <button id="10" type="button">$10</button>
                     <button id="20" type="button">$20</button>
@@ -114,7 +114,7 @@
                     <button id="100" type="button">$100</button>
                 </div>
                 <div>
-                    <input type="number" placeholder="Enter Amount" id="amount">
+                    <input type="number" placeholder="Enter Amount" id="amount" min=5>
                 </div>
                 <div id="terms">
                     <input type="checkbox">Terms and conditions apply
