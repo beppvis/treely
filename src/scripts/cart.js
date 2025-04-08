@@ -62,7 +62,7 @@ function decrement(name, item) {
 
 function checkOut() {
     alert('Thank you for your purchase!')
-    localStorage.clear("cart");
+    localStorage.removeItem("cart");
     window.location.href = 'index.html'
 }
 
