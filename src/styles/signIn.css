@@ -39,11 +39,11 @@ body {
   background: transparent;
 }
 
-.SignInForm input:user-invalid:not(:is([type="checkbox"])) {
+/*.SignInForm input:user-invalid:not(:is([type="checkbox"])) {
   animation: oopsie 0.5s;
   border-color: red;
   color: red;
-}
+}*/
 
 @keyframes oopsie {
   0% {

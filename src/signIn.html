@@ -13,7 +13,15 @@
     <link href="styles/footer.css" rel="stylesheet">
     <script src="scripts/userManagement.js"></script>
 </head>
-
+<style>
+      
+        .error {
+            color: red;
+            font-size: 14px;
+            align-items: left;
+        }
+    </style>
+</style>
 <body>
     <div class="homeBar">
         <div class="logo"><a href="index.html">Treely</a>
@@ -27,17 +35,83 @@
             <button class="profileButton" onclick="window.location.href='./logIn.html'">P</button>
         </div>
     </div>
+    <script>
+        
+        function validateForm() {
+            var name = document.getElementById("name").value;
+            var checkbox = document.getElementById("checkbox");
+            var checkerror = document.getElementById("checkerror");
+           
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            var nameerror = document.getElementById("nameerror");
+            let isValid = true;
+            var emailError = document.getElementById("emailError");
+            var passwordError = document.getElementById("passwordError");
+            let usernameRegex = /^[a-zA-Z]{5,}$/;
+            if (!usernameRegex.test(name)) {
+                nameerror.innerText = "name must only contain alphabets and be at least 5 characters long!";
+                isValid = false;
+            } else {
+                nameerror.innerText = "";
+            }
+            let emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+            if (!emailRegex.test(email)) {
+                emailError.innerText = "Invalid email format!";
+                isValid = false;
+            } else {
+                emailError.innerText = null
+            }
+            let passwordRegex =  /^.{6,}$/
+            if (!passwordRegex.test(password)) {
+                passwordError.innerText = "Min 6 characters required!";
+                isValid = false;
+            } else {
+                passwordError.innerText = null
+            }
+            if (!checkbox.checked) {
+                checkerror.innerText = "Please accept the terms and conditions!";
+                return false;
+            } else {
+                checkerror.innerText = null;
+            }
+            return isValid;
+
+        }
+        function chekerAndContinue(){
+            console.log(validateForm())
+            if (validateForm() == true){
+                signInformParser(); 
+                return true
+            }
+            else
+                return false
+        }
+
+    </script>
     <div class="firstPanel">
         <div class="SignInForm">
-            <form action="" onsubmit="signInformParser()">
+            <form  onsubmit="return chekerAndContinue()" >
                 <h2>Sign In</h2>
-                <input type="name" placeholder="Name" class="in" id="name" required>
-                <input type="email" placeholder="Email" id="email" class="in" required>
-                <input type="password" placeholder="Password" id="password" class="in" required>
+                <input type="text" placeholder="Name" class="in" id="name" >
+                <span id="nameerror" class="error"></span>
+
+                <input type="text" placeholder="Email" id="email" class="in" >
+                <span id="emailError" class="error"></span>
+
+                <input type="text" placeholder="Password" id="password" class="in" >
+                <span id="passwordError" class="error"></span>
+
                 <div id="terms">
-                    <input type="checkbox" required>Terms and conditions apply
-                    <button id="signIn" type="submit">Sign In</button>
+                    
+                    <input type="checkbox" id="checkbox">Terms and conditions apply <br>
+                    <span id="checkerror" class="error"></span>
+<br>
+
                 </div>
+                <button id="signIn" type="submit">Sign In</button>
+
+
             </form>
         </div>
     </div>
