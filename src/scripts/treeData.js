@@ -30,6 +30,7 @@ async function onLoad() {
 
 function cart() {
     let selectedTree = localStorage.getItem("treeSelected")
+    let slider = document.getElementById("treeNoSlider");
     let sliderValue = parseInt(document.getElementById("treeNoSlider").value);
     if (selectedTree != null) {
         var cart = localStorage.getItem("cart")
@@ -45,6 +46,9 @@ function cart() {
             cart[selectedTree] = sliderValue
         }
         localStorage.setItem("cart", JSON.stringify(cart))
+        alert("Added to cart")
+        slider.value = 0;
+        window.location.reload();
 
     }
 }
