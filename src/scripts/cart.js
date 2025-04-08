@@ -60,6 +60,13 @@ function decrement(name, item) {
 
 
 
+function checkOut() {
+    alert('Thank you for your purchase!')
+    localStorage.clear("cart");
+    window.location.href = 'index.html'
+}
+
+
 async function getImagePath(treeName) {
     const treesArray = new Array();
     let trees = await fetch('./scripts/data/trees.json')
