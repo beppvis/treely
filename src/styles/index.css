@@ -201,28 +201,14 @@
   column-gap: 2px;
   gap: 21px;
   margin-bottom: 50px;
-  transform: translateY(0px);
-  transition: transform 0.5s ease-out;
+ 
+  margin-left: 30px;
 }
 
 .displayBar:hover {
   animation: moveUp 0.6s ease-in-out;
   animation-fill-mode: forwards;
 }
-
-
-@keyframes moveUp {
-  0% {
-    transform: translateY(0px);
-    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
-  }
-
-  100% {
-    transform: translateY(-10px);
-    box-shadow: 2px 14px 10px rgba(0, 0, 0, 0.7);
-  }
-}
-
 .displayBar h2 {
   font-size: 40px;
   color: black;
@@ -249,8 +235,6 @@
   column-gap: 2px;
   gap: 21px;
   margin-bottom: 50px;
-  transform: translateY(0px);
-  transition: transform 0.5s ease-out;
 
 }
 

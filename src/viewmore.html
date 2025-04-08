@@ -39,6 +39,7 @@
     column-gap: 2px;
     gap: 21px;
     margin-bottom: 50px;
+    margin-left: 30px;
   }
 
   .displayBar:hover {
@@ -46,15 +47,7 @@
     animation-fill-mode: forwards;
   }
 
-  @keyframes moveUp {
-    0% {
-      transform: translateY(0px);
-    }
-
-    100% {
-      transform: translateY(-25px);
-    }
-  }
+  
 
 
   #treeBar {
@@ -102,23 +95,23 @@
 
 <script src="scripts/viewMore.js"></script>
 
-<body onload="onLoad1()">
+<body onload="onLoad()" id="body">
   <div class="homeBar">
-    <div class="logo"><a href="index.html">Treely</a>
-      <div class="logoBottom">Plant a Billion Trees</div>
-    </div>
-    <div class="homeButtons">
-      <button class="pageButton" onclick="window.location.href='./Howwework.html'">Our Work</button>
-      <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
-      <button class="pageButton" onclick="window.location.href='./index.html#plant'">Plant</button>
-      <button class="pageButton" onclick="window.location.href='./index.html#donateToOrg'">Donate</button>
-      <div class="userDropDown">
-        <button class="profileButton" id="profilePic" onclick="window.location.href='./logIn.html'"></button>
-        <div class="userDropDownContent">
-          <a href="cart.html">Cart</a>
-        </div>
+      <div class="logo"><a href="index.html">Treely</a>
+          <div class="logoBottom">Plant a Billion Trees</div>
       </div>
-    </div>
+      <div class="homeButtons">
+          <button class="pageButton" onclick="window.location.href='./Howwework.html'">Our Work</button>
+          <button class="pageButton" onclick="window.location.href='./Ourpeople.html'">Our People</button>
+          <button class="pageButton" onclick="window.location.href='./index.html#plant'">Plant</button>
+          <button class="pageButton" onclick="window.location.href='./index.html#donateToOrg'">Donate</button>
+          <div class="userDropDown">
+              <button class="profileButton" id="profilePic" onclick="window.location.href='./logIn.html'"></button>
+              <div class="userDropDownContent">
+                  <a href="cart.html">Cart</a>
+              </div>
+          </div>
+      </div>
   </div>
 
   <br><br><br><br>

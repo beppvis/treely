@@ -25,6 +25,7 @@ body {
     letter-spacing: 10px;
     gap: 21px;
     margin-bottom: 50px;
+    margin-left: 30px;
 }
 
 .displayBar:hover {
