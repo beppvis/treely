@@ -1,20 +1,3 @@
-.homeBar {
-    color: #FBFEF7;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #213721;
-    background-size: contain;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 10px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000; 
-} 
 .displayBar {
     display: flex;
     flex-direction: column;
@@ -59,12 +42,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .homeButtons {
-    display: flex;
-    gap: 21px;
-    font-style: bold;
   }
   
   .pageButton {

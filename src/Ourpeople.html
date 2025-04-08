@@ -32,7 +32,7 @@
     }
 </script>
 
-<body onload="onLoad()">
+<body onload="onLoad()" id="body">
     <div class="homeBar">
         <div class="logo"><a href="index.html">Treely</a>
             <div class="logoBottom">Plant a Billion Trees</div>
@@ -43,9 +43,9 @@
             <button class="pageButton" onclick="window.location.href='./index.html#plant'">Plant</button>
             <button class="pageButton" onclick="window.location.href='./index.html#donateToOrg'">Donate</button>
             <div class="userDropDown">
-                <button class="profileButton" onclick="window.location.href='./logIn.html'"></button>
+                <button class="profileButton" id="profilePic" onclick="window.location.href='./logIn.html'"></button>
                 <div class="userDropDownContent">
-                    <a href="viewmore.html">Cart</a>
+                    <a href="cart.html">Cart</a>
                 </div>
             </div>
         </div>

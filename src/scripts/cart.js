@@ -61,8 +61,19 @@ function decrement(name, item) {
 
 
 function checkOut() {
-    alert('Thank you for your purchase!')
-    localStorage.removeItem("cart");
+   
+    let amount = 0
+    let cart = JSON.parse(localStorage.getItem("cart"));
+    for (let tree in cart) {
+        amount += parseInt(cart[tree])
+    }
+    if (amount == 0) {
+        alert("Your cart is empty")
+        return
+    }
+    else
+        localStorage.removeItem("cart");
+        alert('Thank you for your purchase!')
     window.location.href = 'index.html'
 }
 
