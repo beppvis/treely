@@ -11,171 +11,9 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Modern+Antiqua&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <script src="scripts/cart.js"></script>
+  <link rel="stylesheet" href="styles/cart.css">
 </head>
-<style>
-  body {
-    background-color: #F2F2F2;
-    margin: 0px;
-    padding: 0px;
-  }
-
-.displayBar {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    min-width: 400px;
-    width: 400px;
-    height: 430px;
-    box-shadow: 2px 4px 10px black;
-    border-radius: 11px;
-    background-color: #FCFBDD;
-    padding: 0px 0px 15px 0px;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 24px;
-    column-gap: 2px;
-    letter-spacing: 10px;
-    gap: 21px;
-    margin-bottom: 50px;
-  }
-
-  .displayBar:hover {
-    animation: moveUp 0.6s ease-in-out;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes moveUp {
-    0% {
-      transform: translateY(0px);
-    }
-
-    100% {
-      transform: translateY(-25px);
-    }
-  }
-
-.buttonstyle1:hover {
-  text-decoration: underline;
-  text-decoration-style: wavy;
-  text-decoration-skip-ink: auto;
-}
-
-.buttonstyle{
-   font-family: 'Montserrat', sans-serif; 
-   font-size: 20px; 
-   color: rgb(255, 255, 255); 
-   background-color: #6d2c2c; 
-   border: none; 
-   padding: 10px 20px; 
-   border-radius: 5px; 
-   cursor: pointer;
-}
-.buttonstyle1{
-   font-family: 'Montserrat', sans-serif; 
-   font-size: 20px; 
-   border: none; 
-   padding: 10px 20px; 
-   border-radius: 5px; 
-   cursor: pointer;
-}
-.buttonstyle1:hover {
-  transform: scale(1.1);
-    transition: transform 0.5s ease;
-}
-  #treeBar {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    column-gap: 20px;
-    row-gap: 40px;
-    padding: 0px;
-
-  }
-
-  #treeBar::-webkit-scrollbar {
-    width: 20px;
-  }
-
-  .displayBar h2 {
-    font-size: 40px;
-    color: black;
-    margin: 0px 0px 0px 0px;
-  }
-
-  .displayBar center {
-    font-size: 15px;
-    width: 283px;
-    height: 154px;
-    margin: 0px 0px 0px 0px;
-  }
-
-  .displayBar .displayButtons {
-    display: flex;
-    margin: 0px 0px 0px 0px;
-  }
-
-  .displayBar .displayButtons button {
-    margin-right: 21px;
-    margin-left: 21px;
-    margin-bottom: 0px;
-    width: 105px;
-    height: 45px;
-    background-color: #BBD28A;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  .tota {
-
-  color: #8aa664;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  
-  background-size: contain;
-  padding-top: 1px;
-  padding-left: 10px;
-  padding-bottom: 1px;
-  width: 100%;
-  position: fixed;
-  z-index: 130;
-  bottom: 0;
-  background-color: transparent;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.8));
-  backdrop-filter: blur(10px);
-
-
-}
-
-
-</style>
-
-<script>
-  function Tree() {
-    this.image = document.getElementById("tree1");
-  }
-  function onLoad1() {
-    const treeBarComponents = ` 
-            <img src="../assets/BIG.jpg" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
-                height="320px">
-            <h2>Oak Tree</h2>
-            <div class="displayButtons">
-                <button class="buttonstyle">+</button>
-                <span>4</span>
-                 <button class="buttonstyle">-</button>
-            </div>
-        `
-    var treeBar = document.getElementById("treeBar");
-    for (let i = 0; i < 50; i++) {
-      var treeDisplayBar = document.createElement("div");
-      treeDisplayBar.className = "displayBar";
-      treeDisplayBar.innerHTML = treeBarComponents;
-      treeBar.appendChild(treeDisplayBar);
-    }
-  }
-</script>
 
 <body onload="onLoad1()">
   <div class="homeBar">
@@ -190,28 +28,31 @@
       <button class="profileButton" onclick="window.location.href='./signIn.html'">P</button>
     </div>
   </div>
-  
+
   <br>
   <br><br><br><br>
-  <div align="center" class="tota" >
+  <div align="center" class="tota">
     <table align="center"">
         <tr>
-            <td style="font-family: 'Montserrat', sans-serif; font-size: 24px; color: #000000; padding: 10px;"><strong>Total Cost:</strong> </td>
-            <td style="font-family: 'Montserrat', sans-serif; font-size: 24px; color: #000000; padding: 10px;" id="totalCost">$0</td>
-        </tr>
-         <tr> 
-            <td colspan="2" align="center" style="padding: 20px;">
-                <button class="buttonstyle1" onclick="alert('Thank you for your purchase!')">Checkout</button>
-            </td>
-        </tr>
-      </table>
-    </div>
+            <td style=" font-family: 'Montserrat' , sans-serif; font-size: 24px; color: #000000; padding: 10px;">
+      <strong>Total Cost:</strong> </td>
+      <td style="font-family: 'Montserrat', sans-serif; font-size: 24px; color: #000000; padding: 10px;" id="totalCost">
+        $0</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center" style="padding: 20px;">
+          <button class="buttonstyle1" onclick="alert('Thank you for your purchase!')">Checkout</button>
+        </td>
+      </tr>
+    </table>
+  </div>
   <div align="center" style="margin-top: 50px;">
     <h1 style="font-size: 50px; font-family: 'Montserrat', sans-serif; color: #000000;">Your Cart</h1>
     <br>
-</div>
+  </div>
   <div id="treeBar">
   </div>
-<br><br><br><br><br><br><br><br>
+  <br><br><br><br><br><br><br><br>
 </body>
+
 </html>

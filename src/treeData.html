@@ -14,7 +14,7 @@
     <script src="scripts/treeData.js"></script>
 </head>
 
-<body>
+<body onload="onLoad()">
     <img id="forrestTreeImage" src="../assets/forrestTree.png" style="display: none;">
     <div class="homeBar">
         <div class="logo"><a href="index.html">Treely</a>
@@ -30,12 +30,12 @@
     </div>
     <div class="firstPanel">
         <div class="firstText">
-            <b>Oak Tree</b>
+            <b id="treeName">Oak Tree</b>
         </div>
-        <img src="../assets/BIG.jpg" width="712" height="474">
+        <img id="imageDisp" src="../assets/BIG.jpg" width="712" height="474">
     </div>
     <div class="infoPanel">
-        <center>
+        <center id="infoPanel">
             <b>Oak Trees</b> provide <span>protective shading </span> houses and people, lowering energy needs for
             cooling
             homes.
@@ -49,7 +49,7 @@
         <div class="plantMenu">
             <h3> Select the no of trees to be planted</h3>
             <div class="slider">
-                <input type="range" value="0" min="0" max="12" onchange="drawTrees(this)">
+                <input type="range" value="0" min="0" max="12" id="treeNoSlider" onchange="drawTrees(this)">
                 <div>
                     <img src="../assets/counterPlant.png" width="165" height="165">
                     <p style="transform: translateY(-80px)translateX(73px);" id="treeCount">
@@ -59,7 +59,7 @@
             </div>
             <div class="menuButtons">
                 <input type="button" value="Back to List">
-                <input type="button" value="Add to Cart">
+                <input type="button" value="Add to Cart" onclick="cart()">
             </div>
         </div>
         <canvas width="558" height="377" id="canvas">

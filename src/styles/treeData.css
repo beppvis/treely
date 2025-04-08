@@ -43,7 +43,7 @@ body {
   display: flex;
   align-items: center;
   margin-top: 48px;
-  margin-bottom: 48px;
+  margin-bottom: 100px;
   gap: 144px;
   justify-content: space-evenly;
 }

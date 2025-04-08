@@ -29,7 +29,12 @@ function addItem(item) {
 }
 
 
-function getTreeBarComponents(name, img_path, description) {
+function plant(tree) {
+    localStorage.setItem("treeSelected", tree)
+    window.location.href = "../src/treeData.html"
+}
+
+function getTreeBarComponents(name, img_path, description, longDescription) {
     return `
 <img id="tree1" src="${img_path}" style="display:block;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
@@ -39,7 +44,7 @@ function getTreeBarComponents(name, img_path, description) {
             </center>
             <div class="displayButtons">
                 <button onclick="addItem(this)" class="${name}">Cart</button>
-                <button onclick="window.location.href='../src/treeData.html'">Plant</button>
+                <button onclick="plant('${name}')">Plant</button>
             </div>
 `
 
@@ -72,7 +77,7 @@ async function onLoad() {
         var tree = treesArray[tree_index]
         var treeDisplayBar = document.createElement("div");
         treeDisplayBar.className = "displayBar";
-        treeDisplayBar.innerHTML = getTreeBarComponents(tree["name"], tree["filePath"], tree["description"]);
+        treeDisplayBar.innerHTML = getTreeBarComponents(tree["name"], tree["filePath"], tree["description"], tree["description-long"]);
         treeBar.appendChild(treeDisplayBar);
     }
     var viewMoreBar = document.createElement("div");

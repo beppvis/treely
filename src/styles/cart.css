@@ -1,0 +1,138 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding: 0px;
+}
+
+.displayBar {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-width: 400px;
+    width: 400px;
+    height: 530px;
+    box-shadow: 2px 4px 10px black;
+    border-radius: 11px;
+    background-color: #FCFBDD;
+    padding: 0px 0px 15px 0px;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    column-gap: 2px;
+    letter-spacing: 10px;
+    gap: 21px;
+    margin-bottom: 50px;
+}
+
+.displayBar:hover {
+    animation: moveUp 0.6s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveUp {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(-25px);
+    }
+}
+
+.buttonstyle1:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-skip-ink: auto;
+}
+
+.buttonstyle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #6d2c2c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonstyle1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttonstyle1:hover {
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+}
+
+#treeBar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    column-gap: 20px;
+    row-gap: 40px;
+    padding: 0px;
+
+}
+
+#treeBar::-webkit-scrollbar {
+    width: 20px;
+}
+
+.displayBar h2 {
+    font-size: 40px;
+    color: black;
+    margin: 0px 0px 0px 0px;
+}
+
+.displayBar center {
+    font-size: 15px;
+    width: 283px;
+    height: 154px;
+    margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+}
+
+.displayBar .displayButtons button {
+    margin-right: 21px;
+    margin-left: 21px;
+    margin-bottom: 0px;
+    width: 105px;
+    height: 45px;
+    background-color: #BBD28A;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tota {
+
+    color: #8aa664;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-size: contain;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    width: 100%;
+    position: fixed;
+    z-index: 130;
+    bottom: 0;
+    background-color: transparent;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.8));
+    backdrop-filter: blur(10px);
+
+}

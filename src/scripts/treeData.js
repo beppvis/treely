@@ -1,6 +1,56 @@
 
 
+async function onLoad() {
+    let img = document.getElementById("imageDisp")
+    let infoPanel = document.getElementById("infoPanel")
+    let treeNameCont = document.getElementById("treeName")
+    let treesArray = new Array();
+    let trees = await fetch('./scripts/data/trees.json')
+        .then(response => response.json())
+        .then(data => {
+            data.trees.forEach(data => { treesArray.push(data) })
+        })
+        .catch(error => console.log(error));
+    let selectedTree = localStorage.getItem("treeSelected")
+    let data;
+
+    if (selectedTree != null) {
+        for (tree_index in treesArray) {
+            if (treesArray[tree_index]["name"] == selectedTree) {
+                data = treesArray[tree_index]
+            }
+        }
+        img.src = data["filePath"]
+        infoPanel.innerHTML = data["description-long"]
+        treeNameCont.innerHTML = data["name"]
+
+
+    }
+}
+
+function cart() {
+    let selectedTree = localStorage.getItem("treeSelected")
+    let sliderValue = parseInt(document.getElementById("treeNoSlider").value);
+    if (selectedTree != null) {
+        var cart = localStorage.getItem("cart")
+        if (cart != null) {
+            cart = JSON.parse(cart)
+            if (cart[selectedTree] != null)
+                cart[selectedTree] = parseInt(cart[selectedTree]) + sliderValue
+            else
+                cart[selectedTree] = sliderValue
+        }
+        else {
+            cart = {};
+            cart[selectedTree] = sliderValue
+        }
+        localStorage.setItem("cart", JSON.stringify(cart))
+
+    }
+}
+
 function drawTrees(slider) {
+    console.log(slider)
     var noTrees = slider.value;
     var treeImg = document.getElementById("forrestTreeImage");
     var treeCount = document.getElementById("treeCount");
