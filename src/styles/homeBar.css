@@ -95,6 +95,14 @@
   font-style: normal;
   font-size: 26px;
   display: block;
+  text-decoration: unset;
+  border-radius: 10px;
+}
+
+
+.userDropDownContent a:hover {
+  background-color: #8BA752;
+  color: white;
 }
 
 .userDropDown:hover .userDropDownContent {
