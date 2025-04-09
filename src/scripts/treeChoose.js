@@ -24,4 +24,3 @@ function makeDefault(element) {
         console.log("undefined element");
 }
 
-

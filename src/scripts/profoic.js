@@ -5,7 +5,6 @@ function loggedIn() {
         return false
 }
 
- function onLoad() {
-
+function onLoad() {
     loggedIn()
 }

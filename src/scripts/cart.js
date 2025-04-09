@@ -5,9 +5,9 @@ function Tree() {
 
 function getTreeBarComponents(name, imagePath, count) {
     return ` 
-<img src="${imagePath}" style="display:flex;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
+            <img src="${imagePath}" style="display:flex;margin-right:0;margin-left:0;border-radius:11px 11px 0px 0px" width="100%"
                 height="320px">
-<h2>${name}</h2>
+            <h2>${name}</h2>
             <div class="displayButtons">
                 <button class="buttonstyle" onclick="increment('${name}',this)">+</button><span id='value'>${count}</span><button class="buttonstyle" onclick="decrement('${name}',this)">-</button>
             </div>
@@ -61,7 +61,7 @@ function decrement(name, item) {
 
 
 function checkOut() {
-   
+
     let amount = 0
     let cart = JSON.parse(localStorage.getItem("cart"));
     for (let tree in cart) {
@@ -73,7 +73,7 @@ function checkOut() {
     }
     else
         localStorage.removeItem("cart");
-        alert('Thank you for your purchase!')
+    alert('Thank you for your purchase!')
     window.location.href = 'index.html'
 }
 
