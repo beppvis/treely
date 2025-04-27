@@ -1,4 +1,4 @@
-# Treely
+# 🌱 Treely
 You give us $1 we plant a tree of your choice with that dollar.
 
 ## Tech stacks used 
