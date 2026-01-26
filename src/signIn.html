@@ -60,20 +60,20 @@
                 emailError.innerText = "Invalid email format!";
                 isValid = false;
             } else {
-                emailError.innerText = null
+                emailError.innerText = "";
             }
             let passwordRegex = /^.{6,}$/
             if (!passwordRegex.test(password)) {
                 passwordError.innerText = "Min 6 characters required!";
                 isValid = false;
             } else {
-                passwordError.innerText = null
+                passwordError.innerText = "";
             }
             if (!checkbox.checked) {
                 checkerror.innerText = "Please accept the terms and conditions!";
                 return false;
             } else {
-                checkerror.innerText = null;
+                checkerror.innerText = "";
             }
             return isValid;
 
