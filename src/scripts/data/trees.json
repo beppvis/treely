@@ -2,301 +2,301 @@
   "trees": [
     {
       "name": "Oak Tree",
-      "filePath": "../assets/BIG.jpg",
+      "filePath": "assets/BIG.jpg",
       "description": "Your $1 plants a majestic Oak that can live 500+ years, support 500+ wildlife species, and become a cornerstone of forest ecology.",
       "description-long": "Oak Trees provide protective shading for houses and people, lowering energy needs for cooling homes. They improve air quality by storing carbon dioxide and exhaling oxygen through photosynthesis. Their leaves absorb airborne pollutants while their strong root systems prevent soil erosion. Acorns provide essential food for over 100 vertebrate species, and the tree's cavities shelter birds, mammals, and insects."
     },
     {
       "name": "Maple Tree",
-      "filePath": "../assets/maple.jpeg",
+      "filePath": "assets/maple.jpeg",
       "description": "Donate a Maple tree to add crucial habitat, vibrant fall colors, and natural sugar production to our growing forest ecosystem.",
       "description-long": "Maple trees are keystone species that support entire ecosystems. Their dense canopies provide cooling shade that reduces urban heat islands, while their flowers offer early spring nectar for pollinators. Maple sap contains compounds that may have anti-inflammatory properties. The trees' extensive root systems stabilize soil and filter groundwater, and their winged seeds (samaras) provide food for numerous bird and small mammal species."
     },
     {
       "name": "Pine Tree",
-      "filePath": "../assets/pine.webp",
+      "filePath": "assets/pine.webp",
       "description": "Plant a Pine to provide year-round shelter for wildlife, prevent soil erosion, and help forests recover after disturbances.",
       "description-long": "Pine trees are evergreen conifers that maintain ecosystem functions year-round. Their needles create acidic soil conditions that support unique fungi and plant communities. Pine resins contain antimicrobial compounds that protect the tree and have traditional medicinal uses. The trees provide critical winter shelter for birds and mammals, while their seeds feed numerous species. Pine forests influence local climates by capturing fog and moderating temperatures."
     },
     {
       "name": "Willow Tree",
-      "filePath": "../assets/willow.avif",
+      "filePath": "assets/willow.avif",
       "description": "Your Willow donation helps stabilize stream banks, filter water pollutants, and create critical wetland habitats.",
       "description-long": "Willow trees are natural water purifiers with remarkable phytoremediation capabilities. Their roots absorb heavy metals and filter agricultural runoff, improving water quality. Willows produce salicin, the natural compound that inspired aspirin. Their flexible branches provide nesting materials for birds, and early blossoms offer crucial pollen for bees. Willow roots create complex underwater habitats that support aquatic ecosystems."
     },
     {
       "name": "Cedar Tree",
-      "filePath": "../assets/cedar.jpg",
+      "filePath": "assets/cedar.jpg",
       "description": "Cedars are climate resilient and drought tolerant, helping forests adapt to changing conditions while providing essential wildlife habitat.",
       "description-long": "Cedar trees contain natural oils that make them resistant to insects, decay, and fire. Their aromatic wood creates microhabitats with unique microbial communities. Cedar foliage provides winter forage for deer, while their dense branches offer nesting sites for birds. The trees' ability to withstand harsh conditions makes them climate change resilient, and their extensive root systems prevent landslides in mountainous areas."
     },
     {
       "name": "Birch Tree",
-      "filePath": "../assets/birch.webp",
+      "filePath": "assets/birch.webp",
       "description": "Birch trees are pioneer species that help forests regenerate, provide food for birds, and add biodiversity to the ecosystem.",
       "description-long": "Birch trees play a crucial role in ecological succession by being among the first to colonize disturbed areas. Their papery bark contains betulin compounds with potential medicinal properties. Birch sap is rich in minerals and antioxidants, while their catkins provide early spring pollen for bees. The trees support over 300 insect species, creating food webs for birds. Birch forests improve soil quality by increasing nitrogen availability."
     },
     {
       "name": "Palm Tree",
-      "filePath": "../assets/palm.jpg",
+      "filePath": "assets/palm.jpg",
       "description": "Support tropical forest restoration with palm trees that prevent erosion, provide fruit for wildlife, and create canopy diversity.",
       "description-long": "Palm trees are keystone species in tropical ecosystems, with over 2,600 species worldwide. Their unique growth pattern creates microhabitats in their trunks for insects, reptiles, and birds. Palm fruits sustain numerous animal species, while their flowers support specialized pollinators. The trees' shallow but extensive root systems stabilize coastal soils against storm surges and erosion. Many palms have cultural significance and provide materials for local communities."
     },
     {
       "name": "Redwood Tree",
-      "filePath": "../assets/redwood.jpg",
+      "filePath": "assets/redwood.jpg",
       "description": "Plant a redwood to sequester massive amounts of carbon, create fog-capturing canopies, and restore these endangered forest giants.",
       "description-long": "Redwoods are among Earth's most efficient carbon sequestration systems, storing up to 2,000 metric tons of carbon per hectare. Their bark contains tannins that make them fire-resistant and insect-proof. Redwood canopies capture coastal fog, contributing up to 40% of their water needs. These ancient trees create entire ecosystems in their crowns, supporting fern gardens and canopy soils. Their root systems intertwine with other redwoods, increasing stability."
     },
     {
       "name": "Cherry Blossom Tree",
-      "filePath": "../assets/cherry.jpg",
+      "filePath": "assets/cherry.jpg",
       "description": "Cherry trees provide early-season nectar for pollinators, food for birds, and increase forest biodiversity with their spring blooms.",
       "description-long": "Cherry blossom trees have significant ecological and cultural value. Their early spring flowers provide critical nectar sources when few other plants bloom. The fruits feed over 40 bird species, while the leaves host butterfly larvae. Cherry wood contains compounds that resist fungal growth. These trees influence microclimates by reflecting sunlight with their pale bark and creating cooling shade in summer months."
     },
     {
       "name": "Baobab Tree",
-      "filePath": "../assets/baobab.avif",
+      "filePath": "assets/baobab.avif",
       "description": "Donate a drought-resistant baobab to store thousands of gallons of water, support wildlife, and combat desertification.",
       "description-long": "Baobabs are ecological marvels that can store up to 32,000 gallons of water in their swollen trunks. Their hollow trunks provide shelter for animals, while their nutrient-rich fruits feed wildlife and humans. The trees' flowers are pollinated by bats, creating unique nocturnal ecosystems. Baobabs improve soil quality and create microclimates that allow other plants to grow in arid regions. Some specimens are over 2,000 years old."
     },
     {
       "name": "Eucalyptus Tree",
-      "filePath": "../assets/eucalyptus.jpg",
+      "filePath": "assets/eucalyptus.jpg",
       "description": "Fast-growing eucalyptus helps rapidly restore forest cover, provides koala habitat, and contains natural medicinal compounds.",
       "description-long": "Eucalyptus trees are nature's air purifiers - their leaves release aerosols that may help clean the atmosphere. The trees' rapid growth makes them excellent carbon sinks, though they require careful management. Over 300 species depend on eucalyptus, including koalas that specialize in eating their leaves. Eucalyptus oil has antiseptic properties and deters insects. Their root systems can help drain swampy areas, reducing mosquito habitats."
     },
     {
       "name": "Cypress Tree",
-      "filePath": "../assets/cypress.jpg",
+      "filePath": "assets/cypress.jpg",
       "description": "Cypress trees thrive in wetlands, create wildlife habitat, and naturally filter water while sequestering carbon.",
       "description-long": "Cypress trees are wetland specialists with unique root adaptations called 'knees' that help them breathe in flooded conditions. Their wood contains natural preservatives that resist rot, making them valuable for both ecosystems and timber. Cypress forests provide critical storm buffers in coastal regions, reducing hurricane damage. The trees create important rookeries for wading birds and support diverse aquatic life through their submerged root systems."
     },
     {
       "name": "Aspen Tree",
-      "filePath": "../assets/aspen.avif",
+      "filePath": "assets/aspen.avif",
       "description": "Plant an aspen to create interconnected root communities that regenerate forests after fires and support diverse wildlife.",
       "description-long": "Aspens form massive clonal colonies connected by a single root system, with some colonies covering hundreds of acres and weighing thousands of tons. Their leaves tremble in the slightest breeze due to flattened petioles, creating unique light patterns on the forest floor. Aspens are pioneer species that quickly colonize disturbed areas, preparing the ground for other trees. Their bark contains chlorophyll for winter photosynthesis and provides food for numerous species."
     },
     {
       "name": "Magnolia Tree",
-      "filePath": "../assets/magnolia.avif",
+      "filePath": "assets/magnolia.avif",
       "description": "Ancient magnolia species support specialized pollinators and create food sources for birds while adding genetic diversity to forests.",
       "description-long": "Magnolias are among the most ancient flowering plants, evolving before bees existed, so their flowers are adapted for beetle pollination. Their large, waxy flowers contain thermogenic compounds that generate heat to attract pollinators. Magnolia seeds produce bright red arils that birds find irresistible. The trees' broad leaves create dense shade that cools urban areas. Magnolia bark contains compounds used in traditional medicine and modern pharmacology."
     },
     {
       "name": "Sequoia Tree",
-      "filePath": "../assets/sequoia.jpeg",
+      "filePath": "assets/sequoia.jpeg",
       "description": "One sequoia can store more carbon than any other tree species, create its own microclimate, and provide habitat for countless species.",
       "description-long": "Giant sequoias are among Earth's most massive living things, with some specimens containing enough wood to build 40 five-room houses. Their bark can be 3 feet thick, protecting them from fires that actually help their cones open. Sequoias influence local weather patterns by releasing water vapor and capturing fog. A single tree can host entire ecosystems in its crown, including soil communities that grow other plants hundreds of feet above ground."
     },
     {
       "name": "Beech Tree",
-      "filePath": "../assets/beech.jpg",
+      "filePath": "assets/beech.jpg",
       "description": "Beech trees create nutrient-rich soil, provide beechnuts for wildlife, and help establish diverse forest understories.",
       "description-long": "Beech trees create unique ecosystems through their dense canopies and smooth bark that few plants can grow on. Their mast years (heavy nut production) synchronize across regions, providing feast-or-famine conditions that shape wildlife populations. Beech leaves decompose slowly, creating thick leaf litter that shelters salamanders and insects. The trees' shallow roots form mycorrhizal networks that connect entire forest communities. Beech bark disease has devastated many populations, making new plantings crucial."
     },
     {
       "name": "Ash Tree",
-      "filePath": "../assets/ash.jpeg",
+      "filePath": "assets/ash.jpeg",
       "description": "Help restore declining ash populations threatened by emerald ash borer while supporting 150+ species of butterflies and moths.",
       "description-long": "Ash trees have compound leaves that create dappled sunlight patterns supporting diverse understory plants. Their winged seeds (samaras) provide food for birds and small mammals. Ash wood is uniquely elastic, making it ideal for tool handles and baseball bats. The trees host numerous specialist insects, including 43 species that rely exclusively on ash. Emerald ash borer infestations have killed millions of trees, making conservation plantings essential for ecosystem preservation."
     },
     {
       "name": "Elm Tree",
-      "filePath": "../assets/elm.jpeg",
+      "filePath": "assets/elm.jpeg",
       "description": "Your elm donation helps restore this once-common species decimated by disease, bringing back critical habitat and forest diversity.",
       "description-long": "American elms were once the dominant urban tree, creating cathedral-like arching canopies over streets. Their unique vase-shaped growth pattern provides expansive shade. Elm leaves are unusually asymmetrical and support numerous butterfly species. The trees tolerate compacted urban soils and air pollution. Dutch elm disease has killed over 75% of mature elms, but disease-resistant cultivars are helping restore this ecological and cultural keystone species."
     },
     {
       "name": "Fir Tree",
-      "filePath": "../assets/fir.jpg",
+      "filePath": "assets/fir.jpg",
       "description": "Fir trees provide critical winter habitat for wildlife, sequester carbon efficiently, and protect watersheds in mountain forests.",
       "description-long": "Fir trees have upward-curving branches that shed snow easily, allowing them to thrive in heavy snowfall areas. Their dense evergreen canopies provide crucial winter shelter for birds and mammals. Fir needles contain vitamin C and have been used as emergency food sources. The trees' pyramid shape channels rainfall directly to their root systems. Balsam fir resin has antiseptic properties and was traditionally used as glue and medicine."
     },
     {
       "name": "Hickory Tree",
-      "filePath": "../assets/hickory.webp",
+      "filePath": "assets/hickory.webp",
       "description": "Plant a hickory to provide nutritious nuts for wildlife, create rot-resistant wood habitat, and establish deep forest root systems.",
       "description-long": "Hickory trees produce the most calorie-dense nuts in North America, critical for wildlife preparing for winter. Their exceptionally strong wood was used for pioneer-era tools and today's baseball bats. Hickory bark peels in long vertical strips that provide unique habitat for insects and nesting material for birds. The trees' deep taproots make them drought-resistant and excellent for stabilizing slopes. Hickory smoke adds distinctive flavor to foods."
     },
     {
       "name": "Poplar Tree",
-      "filePath": "../assets/poplar.webp",
+      "filePath": "assets/poplar.webp",
       "description": "Fast-growing poplars quickly establish forest cover, filter air pollution, and provide habitat while slower-growing species establish.",
       "description-long": "Poplars are among the fastest-growing temperate trees, capable of growing 8-10 feet per year. Their leaves have special structures that trap particulate pollution. Poplar roots can penetrate up to 30 feet deep, bringing up nutrients that benefit other plants. The trees' cottony seeds provide nesting material for birds. Genetic research on poplars has advanced our understanding of tree biology and climate adaptation strategies."
     },
     {
       "name": "Spruce Tree",
-      "filePath": "../assets/spruce.jpg",
+      "filePath": "assets/spruce.jpg",
       "description": "Spruce trees create dense winter shelter for wildlife, support specialized bird species, and protect forest soils year-round.",
       "description-long": "Spruce trees have a distinctive pyramid shape that sheds snow efficiently. Their needles are attached singly via woody pegs, a unique adaptation among conifers. Spruce resins were traditionally used to make pitch and chewing gum. The trees support crossbills, birds with specially adapted beaks for extracting seeds from cones. Spruce forests create acidic conditions that support unique fungal communities essential for boreal ecosystems."
     },
     {
       "name": "Sycamore Tree",
-      "filePath": "../assets/sycamore.avif",
+      "filePath": "assets/sycamore.avif",
       "description": "Your sycamore donation helps establish streamside forests, provides cavity habitat for wildlife, and creates far-reaching shade canopy.",
       "description-long": "Sycamores are easily recognized by their exfoliating bark that creates a patchwork of colors. Their massive trunks often become hollow with age, providing crucial den sites for wildlife. Sycamores naturally grow along waterways where their extensive roots prevent bank erosion. The trees' large leaves (up to 10 inches across) create exceptional shade that cools urban heat islands. Sycamore wood has an unusual interlocking grain that makes it valuable for specialty products."
     },
     {
       "name": "Acacia Tree",
-      "filePath": "../assets/acacia.jpg",
+      "filePath": "assets/acacia.jpg",
       "description": "Acacias fix nitrogen in poor soils, support pollinators with abundant flowers, and thrive in challenging drought conditions.",
       "description-long": "Acacia trees form symbiotic relationships with ants that protect them from herbivores in exchange for shelter and food. Their leaves contain psychoactive compounds that may deter grazing animals. Acacia roots host nitrogen-fixing bacteria that enrich impoverished soils. The trees' small leaflets fold up during heat to conserve water. Acacia gum (arabic) is used worldwide in food, cosmetics, and pharmaceuticals as a stabilizer and emulsifier."
     },
     {
       "name": "Walnut Tree",
-      "filePath": "../assets/walnut.jpg",
+      "filePath": "assets/walnut.jpg",
       "description": "Plant a walnut to provide high-calorie food for wildlife, create diverse canopy structure, and establish deep-rooted forest systems.",
       "description-long": "Black walnut trees produce juglone, a natural herbicide that creates unique growing conditions beneath them. Their nuts contain the highest protein content of any tree nut, crucial for wildlife. Walnut wood is prized for its rich color and stability in furniture. The trees' deep taproots bring up nutrients from subsoil layers. Walnut leaves have a distinctive citrus-like aroma when crushed and were historically used as insect repellent."
     },
     {
       "name": "Hemlock Tree",
-      "filePath": "../assets/hemlock.webp",
+      "filePath": "assets/hemlock.webp",
       "description": "Help restore declining hemlock forests that create unique stream habitats, cool water temperatures, and support specialized wildlife.",
       "description-long": "Eastern hemlocks create cool, dark forest environments that maintain stream temperatures critical for trout survival. Their dense evergreen canopies block up to 95% of sunlight, creating unique microhabitats. Hemlock bark was historically used for tanning leather due to its high tannin content. The trees can live over 800 years and grow in nutrient-poor soils. Hemlock woolly adelgid infestations have devastated populations, making conservation plantings essential."
     },
     {
       "name": "Joshua Tree",
-      "filePath": "../assets/joshua.avif",
+      "filePath": "assets/joshua.avif",
       "description": "Your Joshua tree donation helps preserve desert ecosystems, supports specialized pollinator species, and fights climate change impacts.",
       "description-long": "Joshua trees are actually giant yuccas that depend exclusively on the yucca moth for pollination in a remarkable co-evolutionary relationship. Their unique shapes provide nesting sites for desert birds and shelter for countless species. Joshua trees store water in their trunks to survive drought conditions. Climate change threatens their survival as warming temperatures prevent seed germination. Some specimens may be over 1,000 years old."
     },
     {
       "name": "Dogwood Tree",
-      "filePath": "../assets/dogwood.jpg",
+      "filePath": "assets/dogwood.jpg",
       "description": "Dogwoods support pollinators, provide berries for birds, and create diverse forest understory habitat essential for biodiversity.",
       "description-long": "Dogwood flowers are actually specialized leaves (bracts) surrounding tiny true flowers. Their bright red berries provide crucial fall and winter food for migrating birds. Dogwood bark contains compounds used in traditional fever remedies. The trees' horizontal branching pattern creates unique understory habitats. Dogwoods are sensitive to soil compaction and serve as indicators of forest health. Their dense wood was historically used for tool handles and weaving shuttles."
     },
     {
       "name": "Ginkgo Tree",
-      "filePath": "../assets/ginkgo.webp",
+      "filePath": "assets/ginkgo.webp",
       "description": "Plant a living fossil! Ginkgos are incredibly pollution-resistant, disease-resistant, and bring ancient genetic diversity to forests.",
       "description-long": "Ginkgo biloba is the sole survivor of a 270-million-year-old plant group, unchanged since dinosaur times. Their unique fan-shaped leaves contain compounds that may enhance memory and circulation. Ginkgos are remarkably resistant to pollution, pests, and radiation (some survived Hiroshima). Female trees produce malodorous fruits containing edible nuts prized in Asian cuisine. Their exceptional longevity (some over 2,500 years old) makes them valuable climate change witnesses."
     },
     {
       "name": "Juniper Tree",
-      "filePath": "../assets/juniper.jpg",
+      "filePath": "assets/juniper.jpg",
       "description": "Junipers thrive in difficult conditions, prevent soil erosion, provide winter food for birds, and establish forests in harsh terrain.",
       "description-long": "Junipers are drought-resistant evergreens that produce berry-like cones used to flavor gin and traditional medicines. Their dense growth provides crucial shelter for wildlife in exposed areas. Juniper oils have natural preservative qualities that deter insects. The trees can live over 2,000 years in extreme conditions. Juniper 'berries' (actually modified cones) are a winter staple for many bird species and have been found in ancient Egyptian tombs."
     },
     {
       "name": "Linden Tree",
-      "filePath": "../assets/linden.jpeg",
+      "filePath": "assets/linden.jpeg",
       "description": "Your linden donation creates critical habitat for bees and pollinators while establishing diverse, resilient forest canopies.",
       "description-long": "Linden trees (also called basswoods) produce exceptionally fragrant flowers that attract thousands of bees. Their soft wood is favored by woodcarvers and for making musical instruments. Linden flowers make a calming herbal tea traditionally used to reduce anxiety. The trees' large heart-shaped leaves create dense shade while allowing some light penetration. Lindens often develop cavities that provide nesting sites for birds and mammals."
     },
     {
       "name": "Mahogany Tree",
-      "filePath": "../assets/mahogany.webp",
+      "filePath": "assets/mahogany.webp",
       "description": "Help restore endangered mahogany populations vital to tropical forest ecosystems and threatened by unsustainable logging.",
       "description-long": "Mahogany trees are keystone species in tropical forests, with canopies that support epiphyte communities and trunks that develop important hollows. Their dense, rot-resistant wood made them tragically valuable to loggers. Mahogany flowers are pollinated by small moths in intricate nighttime ecosystems. The trees' large seeds are wind-dispersed but require canopy gaps to germinate, making natural regeneration difficult in disturbed forests."
     },
     {
       "name": "Olive Tree",
-      "filePath": "../assets/olive.webp",
+      "filePath": "assets/olive.webp",
       "description": "Drought-resistant olives help prevent desertification, support Mediterranean biodiversity, and can live for thousands of years.",
       "description-long": "Olive trees are among the most drought-resistant fruit trees, capable of surviving on just 8 inches of annual rainfall. Some Mediterranean specimens are estimated to be over 3,000 years old. Their extensive root systems prevent soil erosion in arid regions. Olive leaves contain compounds with potential health benefits being studied for cardiovascular effects. The trees' gnarled trunks provide habitat for numerous insects and birds in otherwise sparse landscapes."
     },
     {
       "name": "Pecan Tree",
-      "filePath": "../assets/pecan.jpg",
+      "filePath": "assets/pecan.jpg",
       "description": "Plant a pecan to provide high-protein food for wildlife, create diverse forest canopy, and establish deep water-seeking roots.",
       "description-long": "Pecan trees are North America's only native commercial nut tree, with some varieties growing over 100 feet tall. Their exceptionally deep taproots (up to 10 feet in young trees) make them drought-resistant. Pecan wood has unique bending properties prized for tool handles. The nuts contain healthy fats and antioxidants. Pecan trees exhibit alternate bearing, producing heavy crops every 2-3 years, which shapes local wildlife population cycles."
     },
     {
       "name": "Teak Tree",
-      "filePath": "../assets/teak.jpg",
+      "filePath": "assets/teak.jpg",
       "description": "Support sustainable forestry by planting teak that combats deforestation while creating valuable wildlife habitat.",
       "description-long": "Teak trees produce exceptionally durable wood containing natural oils that resist rot, insects, and weathering. Their large leaves (up to 2 feet across) create dense shade that cools forest understories. Teak flowers attract numerous pollinators, while the trees' fruits are dispersed by wind and water. Sustainable teak plantations can reduce pressure on old-growth forests while providing habitat. The wood's dimensional stability makes it ideal for marine applications."
     },
     {
       "name": "Tulip Tree",
-      "filePath": "../assets/tulip.webp",
+      "filePath": "assets/tulip.webp",
       "description": "Your tulip tree donation establishes fast-growing forest giants that provide abundant nectar for pollinators and wildlife habitat.",
       "description-long": "Tulip trees (also called yellow poplars) are among the tallest eastern hardwoods, reaching over 150 feet. Their distinctive tulip-shaped flowers provide nectar for hummingbirds and bees. The trees' straight trunks made them valuable for canoe building by Native Americans. Tulip tree leaves turn brilliant gold in fall, while their seeds feed numerous bird species. The trees' rapid growth and dense wood make them excellent carbon sinks."
     },
     {
       "name": "Chestnut Tree",
-      "filePath": "../assets/chestnut.jpeg",
+      "filePath": "assets/chestnut.jpeg",
       "description": "Help restore the once-dominant American chestnut, nearly extinct from blight, to reestablish this keystone forest species.",
       "description-long": "American chestnuts were once the dominant eastern hardwood, comprising up to 25% of Appalachian forests before blight decimated them. Their nutritious nuts fed wildlife, livestock, and humans. Chestnut wood is naturally rot-resistant and was used for everything from homes to musical instruments. Restoration efforts using blight-resistant hybrids aim to return this keystone species to its ecological role. Mature trees could produce up to 6,000 nuts annually."
     },
     {
       "name": "Banyan Tree",
-      "filePath": "../assets/banyan.jpeg",
+      "filePath": "assets/banyan.jpeg",
       "description": "Banyans create entire ecosystems within one tree, supporting hundreds of wildlife species and purifying air in tropical regions.",
       "description-long": "Banyan trees begin as epiphytes and eventually develop into expansive structures with hundreds of aerial roots that become secondary trunks. A single banyan can cover several acres, creating cathedral-like canopies. These trees support entire ecosystems, hosting birds, bats, monkeys, and countless insect species. Banyans have cultural and religious significance across Asia. Their extensive root systems help prevent soil erosion during monsoon rains."
     },
     {
       "name": "Catalpa Tree",
-      "filePath": "../assets/catalpa.jpeg",
+      "filePath": "assets/catalpa.jpeg",
       "description": "Plant a catalpa to support specialized pollinators, create unique wildlife habitat, and establish resilient forest diversity.",
       "description-long": "Catalpa trees produce large, orchid-like flowers that are pollinated by specialized bees. Their long bean-like pods provide winter food for birds. Catalpa leaves are the sole food source for catalpa sphinx moth caterpillars, which in turn attract predatory birds. The trees' soft wood develops cavities that provide nesting sites. Catalpas tolerate poor soils and are among the last trees to leaf out in spring, reducing frost damage risk."
     },
     {
       "name": "Tamarack Tree",
-      "filePath": "../assets/tamarack.jpg",
+      "filePath": "assets/tamarack.jpg",
       "description": "Tamaracks help restore crucial wetland forests, prevent erosion, and create specialized wildlife habitat in northern regions.",
       "description-long": "Tamaracks are unique deciduous conifers that shed their needles each fall after turning brilliant gold. Their roots form associations with nitrogen-fixing bacteria that enrich bog soils. Tamarack wood is exceptionally resistant to rot, making it valuable for outdoor construction. The trees provide crucial habitat for bog specialists like spruce grouse. Their flexible trunks withstand heavy snow loads common in northern wetlands."
     },
     {
       "name": "Apple Tree",
-      "filePath": "../assets/apple.webp",
+      "filePath": "assets/apple.webp",
       "description": "Your apple tree donation supports pollinators, provides food for wildlife, and helps preserve heritage genetic diversity.",
       "description-long": "Apple trees are members of the rose family with incredible genetic diversity - over 7,500 known cultivars exist. Their flowers support numerous pollinators, while the fruits feed birds and mammals through winter. Apple wood burns hot and clean, and its smoke flavors foods. Traditional orchards create unique ecosystems with grassland, woodland, and edge habitats. Many heritage varieties contain phytochemicals not found in commercial apples."
     },
     {
       "name": "Mulberry Tree",
-      "filePath": "../assets/mulberry.jpeg",
+      "filePath": "assets/mulberry.jpeg",
       "description": "Mulberries feed over 40 bird species, establish quickly in disturbed areas, and help jumpstart forest regeneration.",
       "description-long": "Mulberry trees produce abundant berries that attract numerous bird species, which then disperse seeds widely. Their leaves are the sole food source for silkworms, making them economically important. Mulberries grow rapidly and tolerate poor soils, making them excellent pioneer species. The trees' dense branching provides nesting sites, while their sweet fruits have been used in traditional medicines. Some species can live over 200 years."
     },
     {
       "name": "Coconut Palm",
-      "filePath": "../assets/coconut.webp",
+      "filePath": "assets/coconut.webp",
       "description": "Plant a coconut palm to stabilize coastal areas, provide wildlife habitat, and establish climate-resilient coastal forests.",
       "description-long": "Coconut palms are the most economically important palm species, with every part of the tree utilized. Their floating seeds can cross oceans to colonize new beaches. Palm fronds reduce wind speed during storms, protecting coastlines. The trees create unique microhabitats in their crown for insects, birds, and even small mammals. Coconut water is sterile and was used intravenously in emergencies. Palms can filter salt from seawater through specialized roots."
     },
     {
       "name": "Mango Tree",
-      "filePath": "../assets/mango.jpeg",
+      "filePath": "assets/mango.jpeg",
       "description": "Mangoes support tropical forest diversity, feed countless wildlife species, and establish deep root systems that prevent erosion.",
       "description-long": "Mango trees are evergreen giants that can live over 300 years while producing fruit. Their flowers attract numerous pollinators, while the fruits feed birds, bats, and mammals. Mango leaves contain compounds that may help regulate blood sugar. The trees' dense canopies create cool microclimates in tropical areas. Mango wood is valued for its rich color and grain, while the sap can cause skin irritation similar to poison ivy in sensitive individuals."
     },
     {
       "name": "Rubber Tree",
-      "filePath": "../assets/rubber.jpg",
+      "filePath": "assets/rubber.jpg",
       "description": "Your rubber tree donation helps create sustainable alternatives to petroleum while establishing diverse tropical forests.",
       "description-long": "Rubber trees (Hevea brasiliensis) produce latex that can be sustainably tapped without harming the tree. Their cultivation reduces pressure on wild rubber populations in the Amazon. Rubber plantations can be managed as agroforestry systems with diverse understories. The trees' seeds contain oil used in paints and varnishes. Rubber wood is now valued for furniture after the latex-producing lifespan ends, creating zero-waste production systems."
     },
     {
       "name": "Sassafras Tree",
-      "filePath": "../assets/sassafras.jpeg",
+      "filePath": "assets/sassafras.jpeg",
       "description": "Plant sassafras to support swallowtail butterflies, create forest biodiversity, and establish unique aromatic compounds in the ecosystem.",
       "description-long": "Sassafras trees have three distinct leaf shapes on the same plant - an unusual phenomenon called heterophylly. Their roots contain safrole oil, formerly used to flavor root beer but now regulated. Sassafras is the sole host plant for spicebush swallowtail butterfly larvae. The trees' blue berries on red stalks are highly attractive to birds. Sassafras leaves turn vibrant orange-red in fall and were traditionally used as a thickener in Creole cooking."
     },
     {
       "name": "Cottonwood Tree",
-      "filePath": "../assets/cottonwood.jpg",
+      "filePath": "assets/cottonwood.jpg",
       "description": "Cottonwoods establish crucial riparian forests, create habitat for cavity-nesting birds, and protect watershed health.",
       "description-long": "Cottonwoods are among the fastest-growing North American trees, adding up to 6 feet per year. Their fluffy seeds give the tree its name and provide nesting material for birds. Cottonwood buds produce a resin used by bees as an antimicrobial hive disinfectant. The trees' extensive root systems stabilize riverbanks while creating habitat for fish and amphibians. Cottonwood leaves 'quake' in the slightest breeze, creating distinctive soundscapes."
     },
     {
       "name": "Yew Tree",
-      "filePath": "../assets/yew.jpg",
+      "filePath": "assets/yew.jpg",
       "description": "Help conserve ancient yew genetics that produce compounds used in cancer treatment while creating specialized forest habitat.",
       "description-long": "Yew trees are among the longest-lived European species, with some specimens estimated at over 5,000 years old. Their bark and needles contain taxol, a compound used in cancer chemotherapy. Yew wood was historically used for longbows due to its exceptional flexibility. The trees' red arils attract birds which disperse the poisonous seeds. Yews often grow in churchyards where they were protected for their symbolic immortality and practical uses."
     },
     {
       "name": "Hawthorn Tree",
-      "filePath": "../assets/hawthorn.jpeg",
+      "filePath": "assets/hawthorn.jpeg",
       "description": "Hawthorns provide protective nesting sites, winter food for birds, and support over 150 insect species in forest ecosystems.",
       "description-long": "Hawthorns are 'living barbed wire' with dense thorns that create ideal protected nesting sites for small birds. Their berries (haws) persist through winter, providing crucial food when other sources are scarce. Hawthorn flowers have an unusual scent that some find unpleasant but attracts specific pollinators. The trees contain compounds used in heart medications and have been associated with numerous folklore traditions. Hawthorns form dense hedgerows that prevent soil erosion."
     },
     {
       "name": "Japanese Maple",
-      "filePath": "../assets/japanese-maple.png",
+      "filePath": "assets/japanese-maple.png",
       "description": "Your Japanese maple donation adds genetic diversity, understory habitat, and specialized niche environments to forest ecosystems.",
       "description-long": "Japanese maples exhibit incredible leaf diversity with hundreds of cultivated varieties displaying various shapes and colors. Their delicate structure creates dappled light patterns that support shade-tolerant understory plants. The trees' small size allows them to thrive where larger trees cannot. Japanese maples have been cultivated for centuries, with some specimens in Japan dating back 300+ years. Their fall colors range from fiery red to golden yellow, adding seasonal interest."
     }

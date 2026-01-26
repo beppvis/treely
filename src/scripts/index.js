@@ -66,7 +66,7 @@ async function onLoad() {
 
     const viewMoreComponents = `
                 <a href="viewmore.html">
-                    <img id="viewMore" src="../assets/arrow-right-circle.svg"
+                    <img id="viewMore" src="assets/arrow-right-circle.svg"
                         style="display:block;margin-right:0;margin-left:0;margin-top:144px;margin-bottom:89px ;border-radius:11px 11px 0px 0px"
                         width="225px" height="225px">
                     <h2>View More</h2>
